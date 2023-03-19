@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     float speed = 10;
     int damage = 20;
+    int damageToEnemy = 20;
     Vector3 direction;
     
 
@@ -37,8 +38,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            other.GetComponent<Enemy>().OnDeath();   
-            
+            other.GetComponent<Enemy>().EnemyChangeHealth(-damageToEnemy);
             Destroy(gameObject);
         }
 

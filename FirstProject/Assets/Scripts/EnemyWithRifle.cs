@@ -15,6 +15,11 @@ public class EnemyWithRifle : Enemy
     bool pause;
     float timer = 0;
     float cooldown = 2.5f;
+    void start(){
+        health = 100;
+
+    }
+    
     int area = 50;
 
     public override void Move()
@@ -71,4 +76,5 @@ public class EnemyWithRifle : Enemy
             break;
         }
     }
+    
 }

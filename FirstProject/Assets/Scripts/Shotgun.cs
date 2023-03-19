@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Shotgun : Gun
 {
+
     void Start()
     {        
         cooldown = 2;        
         auto = true;
+        ammoMax = 80;
+        ammoPerShoot = 8;
+        if (PlayerPrefs.HasKey("shotgunAmmo"))
+        {
+            ammo = PlayerPrefs.GetInt("shotgunAmmo");
+        } 
+        else
+        {
+            ammo = 80;
+        }
     }
     protected override void OnShoot()
     {   for (int i = 0; i<8; i++){
         GameObject buf = Instantiate(bullet);
-        //buf.GetComponent<Bullet>().NoFriendlyFire();
+        buf.GetComponent<Bullet>().NoFriendlyFire();
         buf.GetComponent<Bullet>().setDirection(transform.forward);
         buf.transform.position = rifleStart.transform.position;
         float x = Random.Range(-30, 30);

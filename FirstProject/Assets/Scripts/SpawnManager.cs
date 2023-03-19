@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Wave
@@ -15,6 +17,9 @@ public class SpawnManager : MonoBehaviour
     public Wave[] Waves; // class to hold information per wave
     public Transform[] SpawnPoints;
     public float TimeBetweenEnemies = 2f;
+    public Text WaveNumb;
+    public Text enemiesLeft;
+    public GameObject cam;
 
 
     private int _totalEnemiesInCurrentWave;
@@ -23,6 +28,7 @@ public class SpawnManager : MonoBehaviour
 
     private int _currentWave;
     private int _totalWaves;
+    int wave;
 
 	void Start ()
 	{
@@ -35,6 +41,7 @@ public class SpawnManager : MonoBehaviour
     void StartNextWave()
     {
         _currentWave++;
+        WaveNumb.text = "Волна " + (Promejutok.wave + 1).ToString();
 
         // win
         if (_currentWave > _totalWaves)
@@ -43,6 +50,7 @@ public class SpawnManager : MonoBehaviour
         }
 
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
+        enemiesLeft.text = "Врагов осталось: " + _totalEnemiesInCurrentWave.ToString();
         _enemiesInWaveLeft = 0;
         _spawnedEnemies = 0;
 
@@ -79,11 +87,14 @@ public class SpawnManager : MonoBehaviour
     public void EnemyDefeated()
     {
         _enemiesInWaveLeft--;
+        enemiesLeft.text = "Врагов осталось: " + _enemiesInWaveLeft.ToString();
         
         // We start the next wave once we have spawned and defeated them all
         if (_enemiesInWaveLeft == 0 && _spawnedEnemies == _totalEnemiesInCurrentWave)
-        {
-            StartNextWave();
+        {   
+            Promejutok.wave += 1;
+            cam.GetComponent<Menu>().SaveAmmoAndHP();
+            SceneManager.LoadScene(0);
         }
     }
 }

@@ -12,8 +12,11 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] Text HpText;
     [SerializeField] int health;
+    int maxHealth = 100;
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject pauseUI;
+    [SerializeField] GameObject InGameUI;
+
 
 
     bool pause = false;
@@ -23,8 +26,11 @@ public class PlayerController : MonoBehaviour
 
 
     public void ChangeHealth(int count)
-    {
-        health = health + count;
+    {   
+        if ((health + count)  >= maxHealth){
+            health += maxHealth - health;
+        }
+        else health = health + count;
         if (health <= 0) 
         {
             GetComponent<PlayerLook>().enabled = false;
@@ -42,12 +48,8 @@ public class PlayerController : MonoBehaviour
    
     void Start()
     {
-    if (PlayerPrefs.HasKey("playerX"))
+        if (PlayerPrefs.HasKey("health"))
         {
-            float x = PlayerPrefs.GetFloat("playerX");
-            float y = PlayerPrefs.GetFloat("playerY");
-            float z = PlayerPrefs.GetFloat("playerZ");
-            transform.position = new Vector3(x, y, z);
             ChangeHealth(PlayerPrefs.GetInt("health"));
         } 
         else
@@ -69,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
                 Cursor.lockState = CursorLockMode.Locked;
                 pauseUI.SetActive(false);
+                InGameUI.SetActive(true);
+
             }
             else
             {
@@ -78,6 +82,7 @@ public class PlayerController : MonoBehaviour
 
                 Cursor.lockState = CursorLockMode.None;
                 pauseUI.SetActive(true);
+                InGameUI.SetActive(false);
             }
         }
         
@@ -93,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag == "Health")
+        if (collider.tag == "Heal")
         {
             Destroy(collider.gameObject);
             ChangeHealth(50);

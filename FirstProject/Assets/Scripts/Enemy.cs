@@ -1,13 +1,16 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     
-    protected int damage; //урон который враг наносит
-    protected int health; //здоровье врага
+    public int damage = 1; //урон который враг наносит
+    public int health = 1; //здоровье врага
     protected GameObject player; //Информация о игроке
     bool dead = false; //Мертвый ли враг
     protected SpawnManager _spawnManager;
+    public GameObject dropedHeal;
+    public Slider HB;
+
 
     public virtual void Move() //Враг может как-то двигаться
     {
@@ -23,21 +26,37 @@ public class Enemy : MonoBehaviour
         player = FindObjectOfType<PlayerController>().gameObject; //Находим игрока
     }
 
+    public void EnemyChangeHealth(int count)
+    {
+        health = health + count;
+        print("damage");
+        if (health <= 0) 
+        {
+            OnDeath();
+        }
+    }
+
 
     public void OnDeath() //Умирают враги одинаково
     {
         dead = true;
         _spawnManager.EnemyDefeated();
-        GetComponent<Animator>().SetBool("death", true); //изменили параметр анимации
-        GetComponent<CharacterController>().enabled = false; //отключили коллайдер
+        var anyEvent = Random.Range(1, 9);
+        if ((1<= anyEvent) && (anyEvent < 3)){
+            Vector3 pos = transform.position + new Vector3(0,1,0);
+            GameObject apt = Instantiate(dropedHeal,pos, Quaternion.identity); 
+        }
+        Destroy(gameObject);
     }
     
     
     
     private void Update() //Если враг не мертв, он двигается и атакует
     {
+        HB.value = health;
         if (!dead)
         {
+           
             Move();
             Attack();
         }

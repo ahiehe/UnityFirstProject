@@ -11,12 +11,12 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float jumpForce = 10f;
     [SerializeField] float gravity = 10f;
     float StaminaValue = 100;
-    bool Running = false;
+
     [SerializeField] GameObject GameOver;
     [SerializeField] CharacterController controller;
-    [SerializeField] float speed = 100f;
+    [SerializeField] float speed = 5f;
     [SerializeField] Slider stamina;
-
+    bool knifeAct;
 
 
     
@@ -29,6 +29,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         stamina.value = StaminaValue;
+        knifeAct = GameObject.FindGameObjectWithTag("Player").GetComponent<Switch>().getknifeAct();
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
             {
@@ -101,14 +102,17 @@ public class PlayerMove : MonoBehaviour
     }
     
     private void isRunning(){
-        Running = true;
+        
         updateStamina(-0.1f);
-        speed = 18f;
+        setSpeed(18);
     }
     private void stopRunning()
     {
-        Running = false;
-        speed = 5f;
+        if (knifeAct == false){
+            setSpeed(5);
+        }
+        else setSpeed(15);
+        
     }
     public void updateStamina(float curStamina){
         if (StaminaValue <= 0){
@@ -116,6 +120,9 @@ public class PlayerMove : MonoBehaviour
         }
         
         StaminaValue += curStamina;
+    }
+    public void setSpeed(float uspeed){
+        speed = uspeed;
     }
     
     
