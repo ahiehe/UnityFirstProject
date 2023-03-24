@@ -13,10 +13,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Text HpText;
     [SerializeField] int health;
     int maxHealth = 100;
+    public int coins = 0;
     [SerializeField] GameObject gameOver;
     [SerializeField] GameObject pauseUI;
     [SerializeField] GameObject InGameUI;
+    [SerializeField]Text coinsText;
 
+    [SerializeField] GameObject pistol;
+    [SerializeField] GameObject shotgun;
+    [SerializeField] GameObject rifle;
 
 
     bool pause = false;
@@ -46,8 +51,16 @@ public class PlayerController : MonoBehaviour
       return health;
     }
    
+    public void ChangeCoins(int count){
+        coins += count;
+        coinsText.text = "Монет: " + coins.ToString();
+    }
+    public int GetCoins(){
+        return coins;
+    }
     void Start()
     {
+        ChangeCoins(coins);
         if (PlayerPrefs.HasKey("health"))
         {
             ChangeHealth(PlayerPrefs.GetInt("health"));
@@ -56,11 +69,23 @@ public class PlayerController : MonoBehaviour
         {
             ChangeHealth(100);
         }
+
+        if (PlayerPrefs.HasKey("coins"))
+        {
+            ChangeCoins(PlayerPrefs.GetInt("coins"));
+        } 
+        else
+        {
+            ChangeCoins(0);
+        }
+
     }
+
+    
 
     void Update()
     {
-    
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pause == true)
@@ -85,6 +110,8 @@ public class PlayerController : MonoBehaviour
                 InGameUI.SetActive(false);
             }
         }
+
+
         
     }
 
@@ -102,6 +129,23 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(collider.gameObject);
             ChangeHealth(50);
+        }
+        if (collider.tag == "AddAmmo")
+        {
+            Destroy(collider.gameObject);
+            if (pistol.activeSelf){
+                pistol.GetComponent<Gun>().UppAmmo(10);
+
+            }
+            if (shotgun.activeSelf){
+                shotgun.GetComponent<Gun>().UppAmmo(16);
+
+            }
+            if (rifle.activeSelf){
+                rifle.GetComponent<Gun>().UppAmmo(30);
+                
+            }
+            GetComponent<Switch>().AmmoUpdate();
         }
     }
 }

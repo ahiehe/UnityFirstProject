@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     bool dead = false; //Мертвый ли враг
     protected SpawnManager _spawnManager;
     public GameObject dropedHeal;
+    public GameObject dropedAmmo;
     public Slider HB;
 
 
@@ -40,25 +41,35 @@ public class Enemy : MonoBehaviour
     public void OnDeath() //Умирают враги одинаково
     {
         dead = true;
-        _spawnManager.EnemyDefeated();
+        GetComponent<CharacterController>().enabled = false; 
         var anyEvent = Random.Range(1, 9);
         if ((1<= anyEvent) && (anyEvent < 3)){
             Vector3 pos = transform.position + new Vector3(0,1,0);
-            GameObject apt = Instantiate(dropedHeal,pos, Quaternion.identity); 
+            GameObject dropHeal = Instantiate(dropedHeal,pos, Quaternion.identity); 
         }
+
+        if ((3< anyEvent) && (anyEvent < 5)){
+            Vector3 pos = transform.position + new Vector3(0,1,0);
+            GameObject dropAmmo = Instantiate(dropedAmmo,pos, Quaternion.identity); 
+        }
+        player.GetComponent<PlayerController>().ChangeCoins(Random.Range(80, 90));
+        
+        _spawnManager.EnemyDefeated();
         Destroy(gameObject);
+        
     }
     
     
     
     private void Update() //Если враг не мертв, он двигается и атакует
     {
-        HB.value = health;
+        
         if (!dead)
         {
            
             Move();
             Attack();
         }
+        HB.value = health;
     }
 }

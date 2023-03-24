@@ -7,13 +7,14 @@ public class Gun : MonoBehaviour
 {
     [SerializeField] protected Transform rifleStart;
     [SerializeField] protected GameObject bullet;
-    
+    //[SerializeField] protected Text AmmoText;
 
     protected bool auto = false;
     protected float cooldown = 0;
 
-    public int ammo = 30;
-    public int ammoMax = 30;
+    public int AmmoCurrent= 10;
+    public int AmmoPerMagazin  = 10;
+    public int AmmoEvery = 50;
 
     public int ammoPerShoot = 1;
 
@@ -25,9 +26,9 @@ public class Gun : MonoBehaviour
         {
             if (timer > cooldown)
             {
-                if (ammo >= ammoPerShoot){
+                if (AmmoCurrent > 0){
                     OnShoot();
-                    ammo -= ammoPerShoot;
+                    AmmoCurrent -= ammoPerShoot;
                     
                     timer = 0;
                 } 
@@ -35,7 +36,9 @@ public class Gun : MonoBehaviour
             }
         }
     }
+    public virtual void Reloading(){
 
+    }
     protected virtual void OnShoot()
     {
 
@@ -47,5 +50,8 @@ public class Gun : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
+    }
+    public void UppAmmo(int addiction){
+        AmmoEvery += addiction;
     }
 }

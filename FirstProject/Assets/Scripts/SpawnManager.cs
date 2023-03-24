@@ -24,6 +24,7 @@ public class SpawnManager : MonoBehaviour
 
     private int _totalEnemiesInCurrentWave;
     private int _enemiesInWaveLeft;
+    private int _enemiesInWaveKilled;
     private int _spawnedEnemies;
 
     private int _currentWave;
@@ -41,7 +42,7 @@ public class SpawnManager : MonoBehaviour
     void StartNextWave()
     {
         _currentWave++;
-        WaveNumb.text = "Волна " + (Promejutok.wave + 1).ToString();
+        WaveNumb.text = "Волна " + (Promejutok.wave).ToString();
 
         // win
         if (_currentWave > _totalWaves)
@@ -52,6 +53,7 @@ public class SpawnManager : MonoBehaviour
         _totalEnemiesInCurrentWave = Waves[_currentWave].EnemiesPerWave;
         enemiesLeft.text = "Врагов осталось: " + _totalEnemiesInCurrentWave.ToString();
         _enemiesInWaveLeft = 0;
+        _enemiesInWaveKilled = 0;
         _spawnedEnemies = 0;
 
         StartCoroutine(SpawnEnemies());
@@ -83,18 +85,20 @@ public class SpawnManager : MonoBehaviour
         yield return null;
     }
     
-    // called by an enemy when they're defeated
+    
     public void EnemyDefeated()
     {
         _enemiesInWaveLeft--;
-        enemiesLeft.text = "Врагов осталось: " + _enemiesInWaveLeft.ToString();
+        _enemiesInWaveKilled++;
+        enemiesLeft.text = "Врагов осталось: " + (_totalEnemiesInCurrentWave - _enemiesInWaveKilled).ToString();
         
-        // We start the next wave once we have spawned and defeated them all
+        
         if (_enemiesInWaveLeft == 0 && _spawnedEnemies == _totalEnemiesInCurrentWave)
         {   
             Promejutok.wave += 1;
+            _enemiesInWaveKilled = 0;
             cam.GetComponent<Menu>().SaveAmmoAndHP();
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 }

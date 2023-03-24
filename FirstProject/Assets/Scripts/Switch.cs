@@ -15,12 +15,13 @@ public class Switch : MonoBehaviour
 
 
 
+
     public enum Weapon { Pistol, Shotgun, Rifle, Knife}
-    Weapon weapon;
+    public Weapon weapon;
     void Start()
     {
         ChooseWeapon(Weapon.Pistol);
-        AmmoText.text = pistol.GetComponent<Gun>().ammo + "/" + pistol.GetComponent<Gun>().ammoMax;
+        AmmoUpdate();
     }
     void Update()
     {        
@@ -28,21 +29,21 @@ public class Switch : MonoBehaviour
         {
             ChooseWeapon(Weapon.Pistol);
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().setSpeed(5);
-            AmmoText.text = pistol.GetComponent<Gun>().ammo + "/" + pistol.GetComponent<Gun>().ammoMax;
+            AmmoUpdate();
             knifeAct = false;
         }
         if (Input.GetKey(KeyCode.Alpha2))
         {
             ChooseWeapon(Weapon.Shotgun);
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().setSpeed(5);
-            AmmoText.text = shotgun.GetComponent<Gun>().ammo + "/" + shotgun.GetComponent<Gun>().ammoMax;
+            AmmoUpdate();
             knifeAct = false;
         }
         if (Input.GetKey(KeyCode.Alpha3))
         {
             ChooseWeapon(Weapon.Rifle);
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().setSpeed(5);
-            AmmoText.text = rifle.GetComponent<Gun>().ammo + "/" + rifle.GetComponent<Gun>().ammoMax;
+            AmmoUpdate();
             knifeAct = false;
         }    
         if (Input.GetKey(KeyCode.Alpha4))
@@ -60,22 +61,85 @@ public class Switch : MonoBehaviour
             {
                 case Weapon.Pistol:
                     pistol.GetComponent<Gun>().Shoot();
-                    AmmoText.text = pistol.GetComponent<Gun>().ammo + "/" + pistol.GetComponent<Gun>().ammoMax;
+                    AmmoUpdate();
                     break;
                 case Weapon.Shotgun:
                     shotgun.GetComponent<Gun>().Shoot();
-                    AmmoText.text = shotgun.GetComponent<Gun>().ammo + "/" + shotgun.GetComponent<Gun>().ammoMax;
+                    AmmoUpdate();
                     break;
                 case Weapon.Rifle:
                     rifle.GetComponent<Gun>().Shoot();
-                    AmmoText.text = rifle.GetComponent<Gun>().ammo + "/" + rifle.GetComponent<Gun>().ammoMax;
+                    AmmoUpdate();
                     break;
                 
                 
 
             }
         }
+        if (Input.GetKeyDown(KeyCode.R)){
+            switch (weapon)
+            {
+                case Weapon.Pistol:
+                    pistol.GetComponent<Gun>().Reloading();
+                    AmmoUpdate();
+                    break;
+                case Weapon.Shotgun:
+                    shotgun.GetComponent<Gun>().Reloading();
+                    AmmoUpdate();
+                    break;
+                case Weapon.Rifle:
+                    rifle.GetComponent<Gun>().Reloading();
+                    AmmoUpdate();
+                    break;
+                
+                
+
+            }    
+                
+        }
     }   
+
+    public void AmmoUpdate(){
+        AmmoText.color = Color.black;
+        switch (weapon)
+            {
+            case Weapon.Pistol:
+                AmmoText.text = pistol.GetComponent<Gun>().AmmoCurrent + "/" + pistol.GetComponent<Gun>().AmmoEvery;
+                if ((pistol.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                break;
+            case Weapon.Shotgun:
+                AmmoText.text = shotgun.GetComponent<Gun>().AmmoCurrent + "/" + shotgun.GetComponent<Gun>().AmmoEvery;
+                if ((shotgun.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                break;
+            case Weapon.Rifle:
+                AmmoText.text = rifle.GetComponent<Gun>().AmmoCurrent + "/" + rifle.GetComponent<Gun>().AmmoEvery;
+                if ((rifle.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                break;
+
+            }
+
+    }
+
+    public void BuyAmmo(){
+        switch (weapon)
+            {
+                case Weapon.Pistol:
+                    pistol.GetComponent<Gun>().UppAmmo(10);
+                    AmmoUpdate();
+                    break;
+                case Weapon.Shotgun:
+                    shotgun.GetComponent<Gun>().UppAmmo(16);
+                    AmmoUpdate();
+                    break;
+                case Weapon.Rifle:
+                    rifle.GetComponent<Gun>().UppAmmo(30);
+                    AmmoUpdate();
+                    break;
+                
+                
+
+            }
+    }
     
     public void ChooseWeapon(Weapon weapon)
     {

@@ -1970,6 +1970,7 @@ MonoBehaviour:
   damage: 1
   health: 100
   dropedHeal: {fileID: 960416999170800413, guid: 2fe3f264fc4b71d4d9ae3e73198be6fe, type: 3}
+  dropedAmmo: {fileID: 4815742138802941955, guid: 77c8cc04d22601c4e91e72276a8cc96f, type: 3}
   HB: {fileID: 8008302437643546343}
   bullet: {fileID: 3880604521290398851, guid: da09bbd0a3ba32b408c66f37616633fd, type: 3}
   rifleStart: {fileID: 1986701247431196280}

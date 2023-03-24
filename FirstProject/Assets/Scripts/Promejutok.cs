@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Promejutok : MonoBehaviour
 {
-    public static int wave = 0;
+    public static int wave = 1;
     [SerializeField] GameObject Cam;
     private void OnTriggerEnter(Collider other)
     {

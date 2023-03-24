@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pistol : Gun
 {
@@ -9,15 +10,17 @@ public class Pistol : Gun
     {        
         cooldown = 0;        
         auto = false;
-        ammoMax = 30;
+        AmmoPerMagazin  = 10;
         ammoPerShoot = 1;
         if (PlayerPrefs.HasKey("pistolAmmo"))
         {
-            ammo = PlayerPrefs.GetInt("pistolAmmo")+15;
+            AmmoEvery = PlayerPrefs.GetInt("pistolAmmo")+15;
+            AmmoCurrent= PlayerPrefs.GetInt("pistolAmmoC");
         } 
         else
         {
-            ammo = 30;
+            AmmoEvery = 50;
+            AmmoCurrent= 10;
         }
     }
     protected override void OnShoot()
@@ -31,5 +34,13 @@ public class Pistol : Gun
         float y = Random.Range(-10, 10);
         buf.transform.rotation = transform.rotation;
         buf.GetComponent<Bullet>().setDirection(transform.forward + new Vector3(x / 500, y / 500, 0));
+    }
+    public override void Reloading(){
+        if (AmmoEvery >= (AmmoPerMagazin - AmmoCurrent)){
+            AmmoEvery -= AmmoPerMagazin - AmmoCurrent;
+            AmmoCurrent +=  AmmoPerMagazin - AmmoCurrent;
+            //AmmoText.color = Color.black;
+        }
+        
     }
 }

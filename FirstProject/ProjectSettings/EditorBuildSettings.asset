@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 7b2eccbbb6a3520418ca28655defcc10
+  - enabled: 1
     path: Assets/Scenes/PromejutochLock.unity
     guid: aa7505b1c799f1547aa397ba2095a562
   - enabled: 1
