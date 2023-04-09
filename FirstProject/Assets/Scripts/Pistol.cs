@@ -35,12 +35,4 @@ public class Pistol : Gun
         buf.transform.rotation = transform.rotation;
         buf.GetComponent<Bullet>().setDirection(transform.forward + new Vector3(x / 500, y / 500, 0));
     }
-    public override void Reloading(){
-        if (AmmoEvery >= (AmmoPerMagazin - AmmoCurrent)){
-            AmmoEvery -= AmmoPerMagazin - AmmoCurrent;
-            AmmoCurrent +=  AmmoPerMagazin - AmmoCurrent;
-            //AmmoText.color = Color.black;
-        }
-        
-    }
 }

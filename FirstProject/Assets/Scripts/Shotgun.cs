@@ -36,12 +36,7 @@ public class Shotgun : Gun
         }
         
     }
-    public override void Reloading(){
-        if (AmmoEvery >= (AmmoPerMagazin - AmmoCurrent)){
-            AmmoEvery -= AmmoPerMagazin - AmmoCurrent;
-            AmmoCurrent +=  AmmoPerMagazin - AmmoCurrent;
-            //AmmoText.color = Color.black;
-        }
+    
         
-    }
+    
 }

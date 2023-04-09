@@ -28,6 +28,7 @@ public class Gun : MonoBehaviour
             {
                 if (AmmoCurrent > 0){
                     OnShoot();
+                    GetComponent<AudioSource>().Play();
                     AmmoCurrent -= ammoPerShoot;
                     
                     timer = 0;
@@ -36,8 +37,23 @@ public class Gun : MonoBehaviour
             }
         }
     }
-    public virtual void Reloading(){
-
+    public void Reloading()
+    {
+        if (AmmoCurrent == AmmoPerMagazin) return; //Ничего не делать если полная обойма
+        if (AmmoEvery == 0) return; //Ничего не делать если нет ничего в запасе
+        Invoke("InvokeReloading", 1);
+    }
+    public void InvokeReloading(){
+        if (AmmoEvery >= (AmmoPerMagazin - AmmoCurrent)){
+            AmmoEvery -= AmmoPerMagazin - AmmoCurrent;
+            AmmoCurrent +=  AmmoPerMagazin - AmmoCurrent;
+            
+        }
+        else {
+            AmmoCurrent += AmmoEvery;
+            AmmoEvery = 0;
+        }
+        
     }
     protected virtual void OnShoot()
     {

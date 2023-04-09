@@ -10,7 +10,12 @@ public class Switch : MonoBehaviour
     [SerializeField] GameObject shotgun;
     [SerializeField] GameObject rifle;
     [SerializeField] GameObject knife;
-    [SerializeField] Text AmmoText;
+    [SerializeField] GameObject pistolUI;
+    [SerializeField] GameObject shotgunUI;
+    [SerializeField] GameObject rifleUI;
+    [SerializeField] Text PistolAmmoText;
+    [SerializeField] Text ShotgunAmmoText;
+    [SerializeField] Text RifleAmmoText;
     bool knifeAct = false;
 
 
@@ -22,6 +27,15 @@ public class Switch : MonoBehaviour
     {
         ChooseWeapon(Weapon.Pistol);
         AmmoUpdate();
+
+        ShotgunAmmoText.text = shotgun.GetComponent<Gun>().AmmoCurrent + "/" + shotgun.GetComponent<Gun>().AmmoEvery;
+        if ((shotgun.GetComponent<Gun>().AmmoCurrent) <= 0) ShotgunAmmoText.color = Color.red;
+        else ShotgunAmmoText.color = Color.black;
+
+        RifleAmmoText.text = rifle.GetComponent<Gun>().AmmoCurrent + "/" + rifle.GetComponent<Gun>().AmmoEvery;
+        if ((rifle.GetComponent<Gun>().AmmoCurrent) <= 0) RifleAmmoText.color = Color.red;
+        else RifleAmmoText.color = Color.black;
+
     }
     void Update()
     {        
@@ -50,7 +64,6 @@ public class Switch : MonoBehaviour
         {
             ChooseWeapon(Weapon.Knife);
             GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().setSpeed(15);
-            AmmoText.text =" ";
             knifeAct = true;
         }   
            
@@ -81,39 +94,42 @@ public class Switch : MonoBehaviour
             {
                 case Weapon.Pistol:
                     pistol.GetComponent<Gun>().Reloading();
-                    AmmoUpdate();
+                    
                     break;
                 case Weapon.Shotgun:
                     shotgun.GetComponent<Gun>().Reloading();
-                    AmmoUpdate();
+                    
                     break;
                 case Weapon.Rifle:
                     rifle.GetComponent<Gun>().Reloading();
-                    AmmoUpdate();
+                    
                     break;
                 
                 
 
-            }    
+            }  
+            Invoke("AmmoUpdate",1);  
                 
         }
     }   
 
     public void AmmoUpdate(){
-        AmmoText.color = Color.black;
         switch (weapon)
             {
             case Weapon.Pistol:
-                AmmoText.text = pistol.GetComponent<Gun>().AmmoCurrent + "/" + pistol.GetComponent<Gun>().AmmoEvery;
-                if ((pistol.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                PistolAmmoText.text = pistol.GetComponent<Gun>().AmmoCurrent + "/" + pistol.GetComponent<Gun>().AmmoEvery;
+                if ((pistol.GetComponent<Gun>().AmmoCurrent) <= 0) PistolAmmoText.color = Color.red;
+                else PistolAmmoText.color = Color.black;
                 break;
             case Weapon.Shotgun:
-                AmmoText.text = shotgun.GetComponent<Gun>().AmmoCurrent + "/" + shotgun.GetComponent<Gun>().AmmoEvery;
-                if ((shotgun.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                ShotgunAmmoText.text = shotgun.GetComponent<Gun>().AmmoCurrent + "/" + shotgun.GetComponent<Gun>().AmmoEvery;
+                if ((shotgun.GetComponent<Gun>().AmmoCurrent) <= 0) ShotgunAmmoText.color = Color.red;
+                else ShotgunAmmoText.color = Color.black;
                 break;
             case Weapon.Rifle:
-                AmmoText.text = rifle.GetComponent<Gun>().AmmoCurrent + "/" + rifle.GetComponent<Gun>().AmmoEvery;
-                if ((rifle.GetComponent<Gun>().AmmoCurrent) <= 0) AmmoText.color = Color.red;
+                RifleAmmoText.text = rifle.GetComponent<Gun>().AmmoCurrent + "/" + rifle.GetComponent<Gun>().AmmoEvery;
+                if ((rifle.GetComponent<Gun>().AmmoCurrent) <= 0) RifleAmmoText.color = Color.red;
+                else RifleAmmoText.color = Color.black;
                 break;
 
             }
@@ -151,6 +167,9 @@ public class Switch : MonoBehaviour
                 shotgun.SetActive(false);
                 rifle.SetActive(false);
                 knife.SetActive(false);
+                pistolUI.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                shotgunUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+                rifleUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
 
                 break;
             case Weapon.Shotgun:
@@ -158,6 +177,9 @@ public class Switch : MonoBehaviour
                 shotgun.SetActive(true);
                 rifle.SetActive(false);
                 knife.SetActive(false);
+                pistolUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+                shotgunUI.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+                rifleUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
 
                 break;
             case Weapon.Rifle:
@@ -165,6 +187,9 @@ public class Switch : MonoBehaviour
                 shotgun.SetActive(false);
                 rifle.SetActive(true);
                 knife.SetActive(false);
+                pistolUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+                shotgunUI.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+                rifleUI.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
 
                 break;
             case Weapon.Knife:

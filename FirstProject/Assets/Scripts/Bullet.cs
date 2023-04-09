@@ -23,6 +23,10 @@ public class Bullet : MonoBehaviour
         speed = 50;
         damage = 50;
     }
+    public void MakeUzi()
+    {
+        damage = 5;
+    }
 
     public void MakePlayerSniper()
     {

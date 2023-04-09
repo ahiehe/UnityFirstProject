@@ -9,14 +9,16 @@ public class Goblin : Enemy
         health = 120;
         damage = 10;
     }
-    float timer = 0;
-    float timerForAnim = 0;
-    float cooldown = 1f;
-    float cooldownForAnim = 0.12f;
+    
+    protected float timer = 0;
+    protected float timerForAnim = 0;
+    protected float cooldown = 1f;
+    protected float cooldownForAnim = 0.12f;
    
     bool PlayerNear;
-    bool pause;
+    protected bool pause;
 
+    protected int speed = 6;
 
     public override void Move()
     {
@@ -25,7 +27,7 @@ public class Goblin : Enemy
         {
             GetComponent<Animator>().SetBool("PlayerNear", true);
             transform.LookAt(player.transform);
-            GetComponent<CharacterController>().Move(3 * transform.forward * Time.deltaTime * 2);
+            GetComponent<CharacterController>().Move(speed * transform.forward * Time.deltaTime);
         }
         else 
         {
@@ -49,7 +51,7 @@ public class Goblin : Enemy
                 {
                     timerForAnim = 0;
                     timer = 0;
-                    player.GetComponent<PlayerController>().ChangeHealth(-damage);
+                    player.GetComponent<PlayerController>().ChangeHealth(-this.damage);
                 }
                     
                 

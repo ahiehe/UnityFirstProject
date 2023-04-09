@@ -3,8 +3,8 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     
-    public int damage = 1; //урон который враг наносит
-    public int health = 1; //здоровье врага
+    public int damage; //урон который враг наносит
+    public int health; //здоровье врага
     protected GameObject player; //Информация о игроке
     bool dead = false; //Мертвый ли враг
     protected SpawnManager _spawnManager;

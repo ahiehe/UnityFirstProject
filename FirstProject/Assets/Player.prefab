@@ -673,9 +673,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HpText: {fileID: 0}
   health: 0
+  coins: 0
   gameOver: {fileID: 0}
   pauseUI: {fileID: 0}
   InGameUI: {fileID: 0}
+  coinsText: {fileID: 0}
+  pistol: {fileID: 0}
+  shotgun: {fileID: 0}
+  rifle: {fileID: 0}
 --- !u!114 &3385809714528659046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +698,7 @@ MonoBehaviour:
   rifle: {fileID: 3385809714187491464}
   knife: {fileID: 3385809714806680652}
   AmmoText: {fileID: 0}
+  weapon: 0
 --- !u!1 &3385809714233390140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2446,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c52425aa7c1a7b849a483f7cc99974de, type: 3}
   m_PrefabInstance: {fileID: 3385809714187591208}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &3413194598005089837
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385809714187491464}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1926d31e9aa6e8840ba73466e9a0a601, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.16
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &3385809715333482039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2454,8 +2556,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rifleStart: {fileID: 3385809714074981614}
   bullet: {fileID: 3880604521290398851, guid: da09bbd0a3ba32b408c66f37616633fd, type: 3}
-  ammo: 30
-  ammoMax: 30
+  AmmoCurrent: 10
+  AmmoPerMagazin: 10
+  AmmoEvery: 50
   ammoPerShoot: 1
 --- !u!1001 &3385809714477221812
 PrefabInstance:
@@ -2535,6 +2638,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: bc5d76f3ac4971e4b8bddf1909dbe3eb, type: 3}
   m_PrefabInstance: {fileID: 3385809714477221812}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &3837913624673861575
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385809714477187344}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 066d27a602f95c042a3c56e5314950eb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &3385809714616101056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2549,8 +2748,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rifleStart: {fileID: 3385809715740479047}
   bullet: {fileID: 3880604521290398851, guid: da09bbd0a3ba32b408c66f37616633fd, type: 3}
-  ammo: 30
-  ammoMax: 30
+  AmmoCurrent: 10
+  AmmoPerMagazin: 10
+  AmmoEvery: 50
   ammoPerShoot: 1
 --- !u!4 &3385809714477358384 stripped
 Transform:
@@ -2640,6 +2840,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: c1232b0a1b78ddf44bd877453fb7a84c, type: 3}
   m_PrefabInstance: {fileID: 3385809714530468315}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &2585649320651627047
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3385809714530371455}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f26a0be2e6e26664599f81d29133f254, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &3385809714841138048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2654,8 +2950,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rifleStart: {fileID: 3385809715850199798}
   bullet: {fileID: 3880604521290398851, guid: da09bbd0a3ba32b408c66f37616633fd, type: 3}
-  ammo: 30
-  ammoMax: 30
+  AmmoCurrent: 10
+  AmmoPerMagazin: 10
+  AmmoEvery: 50
   ammoPerShoot: 1
 --- !u!1001 &4262056593685146211
 PrefabInstance:
