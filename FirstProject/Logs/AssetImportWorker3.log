@@ -15,7 +15,7 @@ C:/Users/Andrey/Documents/GitHub/UnityFirstProject/FirstProject
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-12762
+13383
 Successfully changed project path to: C:/Users/Andrey/Documents/GitHub/UnityFirstProject/FirstProject
 C:/Users/Andrey/Documents/GitHub/UnityFirstProject/FirstProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Andrey/Documents/GitHub/UnityFirstProject/FirstProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,78 +63,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006373 seconds.
+Registered in 0.006650 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.562 seconds
+- Completed reload, in  0.596 seconds
 Domain Reload Profiling:
-	ReloadAssembly (562ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (379ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (223ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005214 seconds.
+Registered in 0.006574 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
+- Completed reload, in  0.922 seconds
 Domain Reload Profiling:
-	ReloadAssembly (871ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (923ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (687ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (329ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (326ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
+				BeforeProcessingInitializeOnLoad (81ms)
 				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3408 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (113.1 KB). Loaded Objects now: 3892.
-Memory consumption went from 135.1 MB to 134.9 MB.
-Total: 2.360800 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.110700 ms MarkObjects: 1.947200 ms  DeleteObjects: 0.096600 ms)
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.9 KB). Loaded Objects now: 3895.
+Memory consumption went from 135.6 MB to 135.5 MB.
+Total: 3.612500 ms (FindLiveObjects: 1.228600 ms CreateObjectMapping: 0.172700 ms MarkObjects: 2.096200 ms  DeleteObjects: 0.113500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,57 +161,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 23750.859491 seconds.
-  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03f.prefab
-  artifactKey: Guid(fd4517956020aa54989cd9a8a7e55b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03f.prefab using Guid(fd4517956020aa54989cd9a8a7e55b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e707ffb3f87516ba9e0bf58e1e6da') in 0.360885 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004961 seconds.
+Registered in 0.005267 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
+- Completed reload, in  1.006 seconds
 Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (327ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3903.
-Memory consumption went from 139.0 MB to 139.0 MB.
-Total: 2.256000 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.098300 ms MarkObjects: 1.831800 ms  DeleteObjects: 0.118000 ms)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 3898.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 2.761400 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.200500 ms  DeleteObjects: 0.111900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -224,588 +218,108 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 115.676954 seconds.
-  path: Assets/russian_buildings/textures/rus_build_01_h.png
-  artifactKey: Guid(c308182866d078048836bceee131f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_01_h.png using Guid(c308182866d078048836bceee131f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2674645a3b4818238e4945193c178a3d') in 0.055881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/russian_buildings/textures/rus_build_01_n.png
-  artifactKey: Guid(d087ada33197fbb4c88e2c08bd36de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_01_n.png using Guid(d087ada33197fbb4c88e2c08bd36de20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ffd5f3f96870090276e510f3060a2') in 0.044414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/russian_buildings/textures/rus_build_LOD_02_s.png
-  artifactKey: Guid(58698fed29c723f4b89f3ab997c2bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_LOD_02_s.png using Guid(58698fed29c723f4b89f3ab997c2bc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f740cc0a1391a05775a6e75434e80c3') in 0.018138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/russian_buildings/textures/rus_build_09.png
-  artifactKey: Guid(6e94127c531a7b84fa3fe74ab11fcb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_09.png using Guid(6e94127c531a7b84fa3fe74ab11fcb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e177c70265675ab28bd993644d5e3') in 0.013957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/russian_buildings/textures/rus_build_06.png
-  artifactKey: Guid(1aa5dc17d671bd448b9a1e9f5b6e7dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_06.png using Guid(1aa5dc17d671bd448b9a1e9f5b6e7dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab0ac2d7abcbcd8bc44b9f5b4e4f24e') in 0.012807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/russian_buildings/textures/rus_build_08.png
-  artifactKey: Guid(f63b585b494c19e408adc8374a32ff38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_08.png using Guid(f63b585b494c19e408adc8374a32ff38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26722edfdad3e73ee84a2d042079bde') in 0.012940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/russian_buildings/textures/rus_build_10.png
-  artifactKey: Guid(5a125ecd9eb58a84fbedcf7569256ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_10.png using Guid(5a125ecd9eb58a84fbedcf7569256ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0425f8d79d4402106ae4785f6263ea4a') in 0.015325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/russian_buildings/textures/rus_build_07.png
-  artifactKey: Guid(a9a0a885c2eede34587e12cd1414003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_07.png using Guid(a9a0a885c2eede34587e12cd1414003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aede39e5259a8c3e549a147d851276') in 0.012799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/russian_buildings/textures/rus_build_06_n.png
-  artifactKey: Guid(ff3ed2e1350ac7c47ae84197b2bc30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_06_n.png using Guid(ff3ed2e1350ac7c47ae84197b2bc30b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1f7ad2856dcf9826b6df3cebaa04fa') in 0.013292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/russian_buildings/textures/rus_build_08_n.png
-  artifactKey: Guid(9ca4a46b48f6fb84a87185119e94afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_08_n.png using Guid(9ca4a46b48f6fb84a87185119e94afa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1fb5689fc006d4b0a363514d8ff13d') in 0.015601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/russian_buildings/textures/rus_build_05.png
-  artifactKey: Guid(268c085af3fc79c4a934b1c5a3d93c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_05.png using Guid(268c085af3fc79c4a934b1c5a3d93c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dd99522423858c9d26611977ac0b25') in 0.013295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/russian_buildings/textures/rus_build_08_s.png
-  artifactKey: Guid(2f20fd39e8116d74a882d1b04bde5036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_08_s.png using Guid(2f20fd39e8116d74a882d1b04bde5036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a587f19a0ca141524db42658f9c8612d') in 0.014660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/russian_buildings/textures/rus_build_LOD_03.png
-  artifactKey: Guid(efce089419136f94492f8f54bf755a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_LOD_03.png using Guid(efce089419136f94492f8f54bf755a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de46bf98724286ea2d76ddf4f3946c3e') in 0.015341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/russian_buildings/textures/rus_build_14.png
-  artifactKey: Guid(190b08caee9510e4094d8fb85df30e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_14.png using Guid(190b08caee9510e4094d8fb85df30e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc786f74c95e3bfd174e88082e12119') in 0.014489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/russian_buildings/textures/rus_build_06_s.png
-  artifactKey: Guid(1f388489f17c0b746acc5128df2d589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_06_s.png using Guid(1f388489f17c0b746acc5128df2d589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977e890dbfa9d7b1997c6ea27f70ff83') in 0.014188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/russian_buildings/textures/rus_build_01_s.png
-  artifactKey: Guid(31c614827e49bca4e84dc40de76059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_01_s.png using Guid(31c614827e49bca4e84dc40de76059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca00b7f707b4cc13d60fbe3b3f96529') in 0.015001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/russian_buildings/textures/rus_build_LOD_02.png
-  artifactKey: Guid(62da88ce44d49764b91100a52cc54548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_LOD_02.png using Guid(62da88ce44d49764b91100a52cc54548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bd6e6f6b81b9e872899dabea2d2bbc') in 0.014571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/russian_buildings/textures/rus_build_11.png
-  artifactKey: Guid(d898f1952a888e5459ca4fa61f69aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_11.png using Guid(d898f1952a888e5459ca4fa61f69aacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6517c66671db242e51f39bafd172a6') in 0.014229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/russian_buildings/textures/rus_build_11_s.png
-  artifactKey: Guid(d25ee5b813be1c94299c66797d46b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_11_s.png using Guid(d25ee5b813be1c94299c66797d46b18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d732221d1ba0163f664318d423cc01') in 0.013147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/russian_buildings/textures/rus_build_03.png
-  artifactKey: Guid(396ccf456224e824bb27e11e6cc4f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/russian_buildings/textures/rus_build_03.png using Guid(396ccf456224e824bb27e11e6cc4f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5361053a426f38697d7d3a01f77c65e2') in 0.012709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.869586 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(356e67f09a90b9e4eb2cb8db86cd45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(356e67f09a90b9e4eb2cb8db86cd45e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c994114cbeb56b4f5745e06521feb288') in 0.021885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(d58160cbc6a74cf45b402afea6499fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(d58160cbc6a74cf45b402afea6499fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e9bf569cd24c39f3aab3db644cf008') in 0.030699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.242258 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Bottle_05.prefab
-  artifactKey: Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Bottle_05.prefab using Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2254d42e6f6745e294ed05c89600526') in 0.043977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab
-  artifactKey: Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab using Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72049448a81d6baeeca5a18537e03fbc') in 0.019439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Ground_01.prefab
-  artifactKey: Guid(98f5378049f9b5745a77677f581b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Ground_01.prefab using Guid(98f5378049f9b5745a77677f581b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cccebaea309d06b38db5c6e835afcd') in 0.026487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
-  artifactKey: Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab using Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e77843cff4940e1454f5ba7304d326c') in 0.025855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab
-  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1338f4fea33a7a0c6c5a929e0d765a33') in 0.025342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab
-  artifactKey: Guid(cfb04594231799d4092ee0064447ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab using Guid(cfb04594231799d4092ee0064447ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be5097ea946cc22e6c2093d64a285fa') in 0.018181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab
-  artifactKey: Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab using Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ede8d64c7df340ca9ed8e26e5eb3bc0') in 0.082106 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004990 seconds.
+Registered in 0.005047 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  1.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 3901.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 2.786300 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.236900 ms MarkObjects: 2.152000 ms  DeleteObjects: 0.102300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (745ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (762ms)
 			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (311ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3910.
-Memory consumption went from 139.4 MB to 139.3 MB.
-Total: 2.372300 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.095900 ms MarkObjects: 1.994800 ms  DeleteObjects: 0.085100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004834 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (895ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (299ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3913.
-Memory consumption went from 139.4 MB to 139.3 MB.
-Total: 2.206400 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.092400 ms MarkObjects: 1.829400 ms  DeleteObjects: 0.086200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 460.254853 seconds.
-  path: Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat
-  artifactKey: Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat using Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b228800397cf035f9413dc097161f4d') in 0.079794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.102399 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Bottle_05.fbx
-  artifactKey: Guid(1f3ab9073fa6aed4bbec9d3a54b89a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Bottle_05.fbx using Guid(1f3ab9073fa6aed4bbec9d3a54b89a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531ea3cce331d256d09d74b7a5ce32f1') in 0.040594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Wall_27.fbx
-  artifactKey: Guid(657987f19f0767d4f81541198f8e3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Wall_27.fbx using Guid(657987f19f0767d4f81541198f8e3eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a92dbd5c25e4a85b360ea744ff587') in 0.019734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Table_01.fbx
-  artifactKey: Guid(d6d2f7aefe8e8cb4aac4725d78e70fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Table_01.fbx using Guid(d6d2f7aefe8e8cb4aac4725d78e70fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6b3e786638314ce6bff5cdb98de23c') in 0.020211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Wood_02.fbx
-  artifactKey: Guid(e8f98bd8e8aa901469815fc68e3094aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Wood_02.fbx using Guid(e8f98bd8e8aa901469815fc68e3094aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f3471b19a6f2c9226ca1389c39b3ee') in 0.020070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Column_01.fbx
-  artifactKey: Guid(1bff7d79ae1b141448f2db1e49eb3c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Column_01.fbx using Guid(1bff7d79ae1b141448f2db1e49eb3c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921740aea8ff6acee6fae4307c522f08') in 0.019723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Ground_01.fbx
-  artifactKey: Guid(542f964f9d702f74d949482dfe0e0e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Ground_01.fbx using Guid(542f964f9d702f74d949482dfe0e0e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79804abadc34557c04f7ea5940c6c0c5') in 0.019222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Mud_04.fbx
-  artifactKey: Guid(5fc50f02975300c4fbb07bf974b4815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Mud_04.fbx using Guid(5fc50f02975300c4fbb07bf974b4815b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a26c659ee94e1011eda125e7a400fb6') in 0.019456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/Candle_01.fbx
-  artifactKey: Guid(0e94f8f9621dc254ca920f620b8e454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/Candle_01.fbx using Guid(0e94f8f9621dc254ca920f620b8e454e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb812b6525424243b60898ec6781111') in 0.016015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/LowPolyDungeonsLite/Models/WallDecor_05.fbx
-  artifactKey: Guid(cde161403e4daa841897213ea28384a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Models/WallDecor_05.fbx using Guid(cde161403e4daa841897213ea28384a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e74c811e92a03f2ebad99c291bb27') in 0.017192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.710033 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab
-  artifactKey: Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab using Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f8d3ecef15ce89525be0de47751f48') in 0.015399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab
-  artifactKey: Guid(44b00c7db33473946ad48053b41e081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab using Guid(44b00c7db33473946ad48053b41e081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b057810459f5037f1a65698dc1c591') in 0.014125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab
-  artifactKey: Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab using Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986acbd54ee65d7fafa3b6d3aeab79b1') in 0.037287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab
-  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eeba8c194417c320351c2672047cd7') in 0.016547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/WallDecor_05.prefab
-  artifactKey: Guid(725d9061657be724facf6fda9fe05b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/WallDecor_05.prefab using Guid(725d9061657be724facf6fda9fe05b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd35174c4b1ea4485cc4225c17caae5') in 0.016360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab
-  artifactKey: Guid(cfb04594231799d4092ee0064447ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab using Guid(cfb04594231799d4092ee0064447ce94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11db1098bfcb7be82a835aa275c00a9f') in 0.013673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab
-  artifactKey: Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab using Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f6407cf096f6511e88c6fb8c6234c') in 0.017932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab
-  artifactKey: Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab using Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b3dcce22362d6e8a739f8bda8ba58f') in 0.014223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.825913 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab
-  artifactKey: Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab using Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ac85de3769ec023957aa9dc5af56fc') in 0.013117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab
-  artifactKey: Guid(44b00c7db33473946ad48053b41e081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab using Guid(44b00c7db33473946ad48053b41e081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38362802f0a10afc7671837d7637299e') in 0.015619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
-  artifactKey: Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab using Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004a741a3a18e0fefaf185fd7bc7fcd7') in 0.013892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab
-  artifactKey: Guid(fd2de4bd876f4ac4980370e624362931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab using Guid(fd2de4bd876f4ac4980370e624362931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1609647e333f271554f4af3980089e') in 0.012627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab
-  artifactKey: Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab using Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09aad5c9b112dca9b61761a780977c19') in 0.015365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab
-  artifactKey: Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab using Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27678fc21f5afc425c1edddde94ca752') in 0.015230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Particles_Dust.prefab
-  artifactKey: Guid(ce9b38f12fedb194d8b4177a9d4a66d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Particles_Dust.prefab using Guid(ce9b38f12fedb194d8b4177a9d4a66d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c3271a17e0324d4e2edefbb5dc9e82') in 0.008334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.531872 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab
-  artifactKey: Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab using Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5bc7321af101000dc04214bf534b26') in 0.010121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab
-  artifactKey: Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab using Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb532cad823ce2cf447d65b85207fba') in 0.010961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab
-  artifactKey: Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab using Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48b7dce4cec5e21a17bed828d9d87b5') in 0.008892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab
-  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58a56acae4c84abefd4da7c40d77685') in 0.014555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab
-  artifactKey: Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab using Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145932ea5241153c74f3fdf8d439e4d0') in 0.011766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab
-  artifactKey: Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab using Guid(5fbfbee0f9885764383291c4c5e18668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa545797850517b8265463c72fd19dd') in 0.011870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab
-  artifactKey: Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyDungeonsLite/Prefabs/Chair_05.prefab using Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e8ae091c15b4e319a78f8acb220d87') in 0.008895 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007550 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
-Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (187ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (207ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (81.7 KB). Loaded Objects now: 3954.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 2.486300 ms (FindLiveObjects: 0.228200 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.013900 ms  DeleteObjects: 0.118500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005126 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
-Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (722ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (268ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3957.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.600800 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.119600 ms MarkObjects: 2.138200 ms  DeleteObjects: 0.091800 ms)
+Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3904.
+Memory consumption went from 134.8 MB to 134.7 MB.
+Total: 3.581700 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.162400 ms MarkObjects: 3.082700 ms  DeleteObjects: 0.100000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -820,322 +334,37 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006347 seconds.
+Registered in 0.005052 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
+- Completed reload, in  0.980 seconds
 Domain Reload Profiling:
-	ReloadAssembly (951ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (722ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (768ms)
 			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3960.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.654200 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.274800 ms  DeleteObjects: 0.086400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004624 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Domain Reload Profiling:
-	ReloadAssembly (961ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.7 KB). Loaded Objects now: 3963.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 2.879800 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.129700 ms MarkObjects: 2.422500 ms  DeleteObjects: 0.104400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006860 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (741ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.6 KB). Loaded Objects now: 3966.
-Memory consumption went from 139.9 MB to 139.8 MB.
-Total: 2.420500 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.111900 ms MarkObjects: 1.979900 ms  DeleteObjects: 0.099400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004897 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
-Domain Reload Profiling:
-	ReloadAssembly (871ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (668ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3969.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.466400 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.200400 ms MarkObjects: 1.875000 ms  DeleteObjects: 0.163800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004700 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
-Domain Reload Profiling:
-	ReloadAssembly (899ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (687ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3972.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.381200 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.142600 ms MarkObjects: 1.911100 ms  DeleteObjects: 0.107500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005291 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
-Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (684ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (224ms)
+			SetupTypeCache (256ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (305ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (183ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (210ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
@@ -1145,9 +374,9 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (80.8 KB). Loaded Objects now: 3975.
-Memory consumption went from 139.8 MB to 139.7 MB.
-Total: 2.548500 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.119600 ms  DeleteObjects: 0.098200 ms)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 3907.
+Memory consumption went from 134.8 MB to 134.7 MB.
+Total: 2.466200 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.123600 ms MarkObjects: 2.036800 ms  DeleteObjects: 0.087000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1159,3 +388,1087 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006966 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3910.
+Memory consumption went from 134.8 MB to 134.8 MB.
+Total: 2.466400 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.002500 ms  DeleteObjects: 0.097000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005124 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Andrey\Documents\GitHub\UnityFirstProject\FirstProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.3 KB). Loaded Objects now: 3913.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 2.424700 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.131700 ms MarkObjects: 1.915500 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26239.868924 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Letters FBX/Materials/No Name.mat
+  artifactKey: Guid(6066b734d430a6a4ba57239e13dd4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Letters FBX/Materials/No Name.mat using Guid(6066b734d430a6a4ba57239e13dd4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1395bc19d9b532c9b8906ebc165ded3') in 0.168478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.653603 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/parking meter.mat
+  artifactKey: Guid(a2d7929290d968846afe406302bf3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/parking meter.mat using Guid(a2d7929290d968846afe406302bf3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0458ef57834af2a586d1459b8118a9') in 0.030077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435404 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/parking sign.mat
+  artifactKey: Guid(0f5ddd6b44e585643a5a1f13ef748f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/parking sign.mat using Guid(0f5ddd6b44e585643a5a1f13ef748f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76331bbd79f3a86bab7b1a8ad812c473') in 0.023533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/phone botth.mat
+  artifactKey: Guid(910d545f9ccbd0445bfb10c95945ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/phone botth.mat using Guid(910d545f9ccbd0445bfb10c95945ac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fd82fcc220df608a91d2ae9f5efdf') in 0.032138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Customizable Skybox/Materials/pine tree green.mat
+  artifactKey: Guid(471bbc61de2af0a47bd80da0aacc49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/pine tree green.mat using Guid(471bbc61de2af0a47bd80da0aacc49dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddfeda58d9f6cf558db4bddbd3ba7b1') in 0.014222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/plant 1.mat
+  artifactKey: Guid(47b23d2d38e75d647bb4c68fcc720550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/plant 1.mat using Guid(47b23d2d38e75d647bb4c68fcc720550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea391f0a9a19301875cacbd6631a562') in 0.027509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415937 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/platt 2.mat
+  artifactKey: Guid(5e630e1c520e873418764ba99ff41b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/platt 2.mat using Guid(5e630e1c520e873418764ba99ff41b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ca65f0c463807e167355fcba406fa') in 0.017922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Pole.mat
+  artifactKey: Guid(a91010901bdc49b408500133d7fab774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Pole.mat using Guid(a91010901bdc49b408500133d7fab774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bf7937de0ca609338cd6e10257c9c2') in 0.018268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004072 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/police.mat
+  artifactKey: Guid(a199066e22e12114f948d0d042dee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/police.mat using Guid(a199066e22e12114f948d0d042dee7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f70839098019219033e01b161d95e0') in 0.033899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Poles.mat
+  artifactKey: Guid(d7860831e5a1044448a45fa973897536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Poles.mat using Guid(d7860831e5a1044448a45fa973897536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e4745ac19e6330ba4f2033a19c1d5f') in 0.020312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.712272 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Pot_tree.mat
+  artifactKey: Guid(3b40b8ee00299524ea7fc922043f7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Pot_tree.mat using Guid(3b40b8ee00299524ea7fc922043f7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24384b5b8661b6fbc1c7a7fdfb9b3f5f') in 0.028284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/power pole cable texture.mat
+  artifactKey: Guid(b32cc516dcac9a14eb2048caf6ec1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/power pole cable texture.mat using Guid(b32cc516dcac9a14eb2048caf6ec1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85a39bb20085bf2e68c51f2fd86cfa0') in 0.028488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/props_FBX.mat
+  artifactKey: Guid(b742fdefd42bf3549b791027d360d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/props_FBX.mat using Guid(b742fdefd42bf3549b791027d360d214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237b42d951301253b68448b5301d756f') in 0.020762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.298474 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Red.mat
+  artifactKey: Guid(d7def7c5e7ec861488fc868e6e28208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Red.mat using Guid(d7def7c5e7ec861488fc868e6e28208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361406d5377e5176bcd1bbc9b47ee377') in 0.033039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/road  traffic sign.mat
+  artifactKey: Guid(47d6f3b250a30aa448442bc469b1b56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/road  traffic sign.mat using Guid(47d6f3b250a30aa448442bc469b1b56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b590c61a33935ebf7cf33e86bfbedc0b') in 0.029829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.347749 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof.mat
+  artifactKey: Guid(bd1ab28fe60715946b403aaa00417e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof.mat using Guid(bd1ab28fe60715946b403aaa00417e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5cb59a02d7cf1cae2ea40e5af5d615') in 0.019308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019430 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/roof 2.mat
+  artifactKey: Guid(0476b9773fe0ed7458a8aea384244c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/roof 2.mat using Guid(0476b9773fe0ed7458a8aea384244c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cefb9de7f218ddc06523d1d1c9a6701') in 0.018995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476223 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof_02.mat
+  artifactKey: Guid(7cd7aef8730edc148a5de9d354b541c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof_02.mat using Guid(7cd7aef8730edc148a5de9d354b541c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb8bbbcda97a389277394fc7e1bc806') in 0.023967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof_03.mat
+  artifactKey: Guid(1c068cd62c711e940a64dec533d304b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Roof_03.mat using Guid(1c068cd62c711e940a64dec533d304b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa627066d79aaed11915db36f136a4c') in 0.022395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.290935 seconds.
+  path: Assets/russian_buildings/materials/rus_build_03.mat
+  artifactKey: Guid(0e0f6d4b2b93c7c4293922744c5556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_03.mat using Guid(0e0f6d4b2b93c7c4293922744c5556e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9a3f815a6195fb4b1f3899041530eb') in 0.023960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006878 seconds.
+  path: Assets/russian_buildings/materials/rus_build_06.mat
+  artifactKey: Guid(6e934620eb55b7e41be50e0f81d0714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_06.mat using Guid(6e934620eb55b7e41be50e0f81d0714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbb440615e17940e2dab55097f5eba2') in 0.022785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/materials/rus_build_07.mat
+  artifactKey: Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_07.mat using Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc6e252dc792b067a111dcafd2bc8ed') in 0.017869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962377 seconds.
+  path: Assets/russian_buildings/materials/rus_build_12.mat
+  artifactKey: Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_12.mat using Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a89e32742f37dfa8ac363148fa32867') in 0.018390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.001.mat
+  artifactKey: Guid(25aed3a18f9d95a4783c5752ac6f1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.001.mat using Guid(25aed3a18f9d95a4783c5752ac6f1217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2bf8fb556c829130c82c565bbe3b2a') in 0.021949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.008.mat
+  artifactKey: Guid(57292e6111512b349a6bce37f73c0251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.008.mat using Guid(57292e6111512b349a6bce37f73c0251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db1096066cc0c80c404a63a84a89b2b') in 0.020564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sideway 2x2m.mat
+  artifactKey: Guid(bbfc60a43ae74ad458ee80e12798a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sideway 2x2m.mat using Guid(bbfc60a43ae74ad458ee80e12798a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24860968b45972973e597b9908b56b10') in 0.023960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/televersion antenna.mat
+  artifactKey: Guid(b6183d9c1ec5b4a459eb0a08657d18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/televersion antenna.mat using Guid(b6183d9c1ec5b4a459eb0a08657d18ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dba1eb8782558367bbd76427c752cf3') in 0.026968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/wood.mat
+  artifactKey: Guid(9f566002285560e44923c03bccb3b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/wood.mat using Guid(9f566002285560e44923c03bccb3b07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc396e1bcc3bb9c05e4af58b955c78f') in 0.018444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.002.mat
+  artifactKey: Guid(0b6cd9686375033449130cf148bcca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.002.mat using Guid(0b6cd9686375033449130cf148bcca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551616d992c9a6787ba71402e87a301f') in 0.021633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.009.mat
+  artifactKey: Guid(111b0762854dc784080604489b423201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.009.mat using Guid(111b0762854dc784080604489b423201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d583f88ae816680ccc514bf48c2b68') in 0.027847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/window flap.mat
+  artifactKey: Guid(32e83a9978f65e5489a436a1cc07ced1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/window flap.mat using Guid(32e83a9978f65e5489a436a1cc07ced1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72de1dec382dcbfa53d51b44b10f0005') in 0.026144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/russian_buildings/materials/rus_build_13.mat
+  artifactKey: Guid(9fa9c577cc90e484185f297dfc8f3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_13.mat using Guid(9fa9c577cc90e484185f297dfc8f3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6b2c1e03ea78e6140732fa0590940d') in 0.018050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.mat
+  artifactKey: Guid(e762828ff17a63247bff2c9276fb3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.mat using Guid(e762828ff17a63247bff2c9276fb3b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efb186bba81f6d469dc561ecc00e2b9') in 0.022334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Windows_C.mat
+  artifactKey: Guid(0274bdc4317ecdf4abe00f1ef7dc6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Windows_C.mat using Guid(0274bdc4317ecdf4abe00f1ef7dc6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555bef1022d69bfd5b091da865d41ef8') in 0.020698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/window 2.mat
+  artifactKey: Guid(2fd3c6d3203b3034aab25f192658a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/window 2.mat using Guid(2fd3c6d3203b3034aab25f192658a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf83e7a5974441f8c22f817c367a209') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.011.mat
+  artifactKey: Guid(c1b67603cd9103a48af1d6fd010ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.011.mat using Guid(c1b67603cd9103a48af1d6fd010ba81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc69f8ca408194c9306d9e966ac66990') in 0.021324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_02.mat
+  artifactKey: Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/russian_buildings/materials/rus_build_lod_02.mat using Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dbf6ec153d420c7091eb7e89bb13bb') in 0.018379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Window1.mat
+  artifactKey: Guid(865527e5af7e3674d87eff767ed1f29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Window1.mat using Guid(865527e5af7e3674d87eff767ed1f29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97fa18c1191032112af4a2d85efe8e5') in 0.021631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/WhiteWood.mat
+  artifactKey: Guid(5f273051f61813b4ab4a858d0cc95614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/WhiteWood.mat using Guid(5f273051f61813b4ab4a858d0cc95614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f10535955e1107dc197b41c98f33d3') in 0.020064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.003.mat
+  artifactKey: Guid(ba45161c1c3c5744eaeed4955bf3f28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.003.mat using Guid(ba45161c1c3c5744eaeed4955bf3f28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ef5b9b61c183667dafc6536aafb431') in 0.019975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.006.mat
+  artifactKey: Guid(945a863eebb862a449ebb086b2d6de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.006.mat using Guid(945a863eebb862a449ebb086b2d6de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce3c827bee9247d988525ffb1920c59') in 0.020283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.mat
+  artifactKey: Guid(d8801b161907a0c419f1fee6db107147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.mat using Guid(d8801b161907a0c419f1fee6db107147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb45c8e2d5e5d078e2b1a802821d8612') in 0.010582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.001.mat
+  artifactKey: Guid(2ecf354ed0946714f893a92099170305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.001.mat using Guid(2ecf354ed0946714f893a92099170305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140ff40023ef6785b61e9a524ac555ea') in 0.020157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Window.mat
+  artifactKey: Guid(7b4fea7238a26184cb69155caef2cc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Window.mat using Guid(7b4fea7238a26184cb69155caef2cc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c727c326cfe99a32754a732c0cbb833') in 0.020975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/shopping cart.mat
+  artifactKey: Guid(6f9e936f7882193458b7205f066d95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/shopping cart.mat using Guid(6f9e936f7882193458b7205f066d95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a77955060609a40f66e10e8c9d3349b') in 0.039324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/SideWalk.009.mat
+  artifactKey: Guid(72b537efdeef38e46b6fbe56b36e3676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/SideWalk.009.mat using Guid(72b537efdeef38e46b6fbe56b36e3676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d81a3d231b14d6c8cb3f4840ea4d397') in 0.020035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.006.mat
+  artifactKey: Guid(b189a2b6cbbdd284b92ba18fae38a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Sideway.006.mat using Guid(b189a2b6cbbdd284b92ba18fae38a10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e368b79a5a011c6e367f79fdf4c8f46') in 0.020831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/shop b.mat
+  artifactKey: Guid(d2ece15c27b1b3e42af178de8034e3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/shop b.mat using Guid(d2ece15c27b1b3e42af178de8034e3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3e1e5644e306baaaa886e6219f87f1') in 0.028293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Stone.mat
+  artifactKey: Guid(605d9afa265941e4bbde3b687e377e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Stone.mat using Guid(605d9afa265941e4bbde3b687e377e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e1bc3729f36692d9e74b52f2eb0498') in 0.019627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.284050 seconds.
+  path: Assets/POLYGON city pack/Materials/traffic light/Yellow.mat
+  artifactKey: Guid(7be5e417b52fd834280f56f025a91e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/traffic light/Yellow.mat using Guid(7be5e417b52fd834280f56f025a91e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40994ae0371c80daa6675e9c2190fa5c') in 0.029784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Windows.mat
+  artifactKey: Guid(99410ba1708579d4ea53ba84bc12518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Windows.mat using Guid(99410ba1708579d4ea53ba84bc12518f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce7932b64624a24120d0fedd886db3a') in 0.047617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.001.mat
+  artifactKey: Guid(d8f09384e740b544685e7df4c69f7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.001.mat using Guid(d8f09384e740b544685e7df4c69f7242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3ffeddabbf832afb8901d44a403ef6') in 0.020427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/trash bag.mat
+  artifactKey: Guid(2691ab97d685579468814a126b76ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/trash bag.mat using Guid(2691ab97d685579468814a126b76ecf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e59431e5d65d549c80464b6a6b2eee') in 0.029898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 3 a.001.mat
+  artifactKey: Guid(be6c14a7ad3166545b8b14b342d0e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 3 a.001.mat using Guid(be6c14a7ad3166545b8b14b342d0e209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2bb0bec676f9b4638fe3219f391a14') in 0.024228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/fire_escape_01.mat
+  artifactKey: Guid(037e04b16331a2142b47b4f70b6def5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/fire_escape_01.mat using Guid(037e04b16331a2142b47b4f70b6def5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9b714ba43ce3cf441a8df8da28601b') in 0.021944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 2 b.002.mat
+  artifactKey: Guid(ef9739086254f604cbb880d182c31896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 2 b.002.mat using Guid(ef9739086254f604cbb880d182c31896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a427bd15dac80be8726b9d17639f21') in 0.022027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/coke_machine_texture.mat
+  artifactKey: Guid(c6dfa098ec9d68d45af4d8f2bdb6a118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/coke_machine_texture.mat using Guid(c6dfa098ec9d68d45af4d8f2bdb6a118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607744b77818fc52819526e3f61cfa30') in 0.021414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/A2.mat
+  artifactKey: Guid(5188c7492ef51d143a7128aa9700788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/A2.mat using Guid(5188c7492ef51d143a7128aa9700788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c8cd5fb9a7e655f0bbb8b7de44e418') in 0.014588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.005.mat
+  artifactKey: Guid(10c96da50f755ce43a9eeaaf677eb3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.005.mat using Guid(10c96da50f755ce43a9eeaaf677eb3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747c43e01d04c6890d444f3cf514aae9') in 0.023120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_05.mat
+  artifactKey: Guid(2d494e27b379b9146a59c145c4ac1b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_05.mat using Guid(2d494e27b379b9146a59c145c4ac1b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408358ea9db220df6e72a09a8b00bc22') in 0.017815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/traffic sign 5.mat
+  artifactKey: Guid(a138479289b31fd4284258b6493e7d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/traffic sign 5.mat using Guid(a138479289b31fd4284258b6493e7d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13adeb1b0da3ae733ee41df9ac9e54b') in 0.025543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.002.mat
+  artifactKey: Guid(f9863ca1c5d132e4fbaf67d1ee85a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.002.mat using Guid(f9863ca1c5d132e4fbaf67d1ee85a2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d43218d7932a141635f277d6a00a71') in 0.021012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_03.mat
+  artifactKey: Guid(2b8ad3694b9ece5438f80b192a28a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_03.mat using Guid(2b8ad3694b9ece5438f80b192a28a1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755a5870215b8b943e140d36a0378e73') in 0.010475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Fire_escape_04.mat
+  artifactKey: Guid(12ccd3a845e37e3409541e3db2e2440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Fire_escape_04.mat using Guid(12ccd3a845e37e3409541e3db2e2440c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1540f7bbd5cb5f5ee085988f61f1e4') in 0.022292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.004.mat
+  artifactKey: Guid(1a87737016291074c9cbf915423adc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 2.004.mat using Guid(1a87737016291074c9cbf915423adc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739da0e9853dc514d75dc161b3053992') in 0.018662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/A.mat
+  artifactKey: Guid(3c98c150d6196ef419f666d71cf7d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/A.mat using Guid(3c98c150d6196ef419f666d71cf7d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e77fc5ba343c6a82ba6d64d4dd201f') in 0.015436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON city pack/Materials/traffic light/Green.mat
+  artifactKey: Guid(749169b54d08d824e828e6b055ae52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/traffic light/Green.mat using Guid(749169b54d08d824e828e6b055ae52d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac525f745f82f46cd9b514891c0ce96') in 0.023309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/windowFrames.mat
+  artifactKey: Guid(00aec1c00583d804f8132354d406ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/windowFrames.mat using Guid(00aec1c00583d804f8132354d406ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209dc76c3f90eedd8ffe6da2fc3e35d8') in 0.020033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic warning stand texture.mat
+  artifactKey: Guid(763c750ae7189a543a779c4e148efd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic warning stand texture.mat using Guid(763c750ae7189a543a779c4e148efd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9ea9acd5b9f5a6b56f00e1deb3e571') in 0.022376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/cola_machine_texture.mat
+  artifactKey: Guid(14604aa49ae452047971d45fa7844804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/cola_machine_texture.mat using Guid(14604aa49ae452047971d45fa7844804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b745976f2cd4b10acb9456f9d56b08c') in 0.025740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/trash bin texture.mat
+  artifactKey: Guid(f9cb6f94942f51443bc857f5980500ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/trash bin texture.mat using Guid(f9cb6f94942f51443bc857f5980500ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd874bf2595685c37a487c86f4337742') in 0.029259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 3 a.mat
+  artifactKey: Guid(62173aa68abb7824caca79ff58a6517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 3 a.mat using Guid(62173aa68abb7824caca79ff58a6517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ee697118d44681ab0d37802fdeea35') in 0.018769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/A1.mat
+  artifactKey: Guid(1af4b0d855a4f694baba51a55f5c6cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/A1.mat using Guid(1af4b0d855a4f694baba51a55f5c6cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c3ef6e5be8e834f12a954a2d089b5f') in 0.015875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/can_orange.mat
+  artifactKey: Guid(afc9047e46e56694d945fae27db27d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/can_orange.mat using Guid(afc9047e46e56694d945fae27db27d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7440f48a2b9ab5d1ed96976a7abad0c3') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/green.mat
+  artifactKey: Guid(8b297f7e4b86abd4284d00ab8b355ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/green.mat using Guid(8b297f7e4b86abd4284d00ab8b355ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0eb9ee4af0ff79174cff5f9e8c35f7') in 0.020478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Door_01.mat
+  artifactKey: Guid(54bed0b3601852e4383872ae31c89b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Door_01.mat using Guid(54bed0b3601852e4383872ae31c89b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bae1dbdf66362ff2556016d55dc520') in 0.012373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Window_frame.mat
+  artifactKey: Guid(c4030c76fa38da2428b2b850b66f0ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Window_frame.mat using Guid(c4030c76fa38da2428b2b850b66f0ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba0142f7db6692271fabe1d365acf22') in 0.020725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Wrench.mat
+  artifactKey: Guid(ae3720bde5deb094b8ad09f68783343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Wrench.mat using Guid(ae3720bde5deb094b8ad09f68783343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bb050c12dfb1cae559b9148564a8dd') in 0.021878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/fire_escape.mat
+  artifactKey: Guid(f9801a118c76c1448ab9e07b4fc48618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/fire_escape.mat using Guid(f9801a118c76c1448ab9e07b4fc48618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505d364f6ccf96435263641425a88b7c') in 0.020343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/air conditioner roof.mat
+  artifactKey: Guid(81db9f30112f5fa449c171ddee2aaab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/air conditioner roof.mat using Guid(81db9f30112f5fa449c171ddee2aaab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a909e04f95b1d222e20c5783bd9e35') in 0.021929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.694912 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/SideWalk.006.mat
+  artifactKey: Guid(b9967671dc65ce94aa0ae25ec3ccc87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/SideWalk.006.mat using Guid(b9967671dc65ce94aa0ae25ec3ccc87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc12327bdfda606dbc91289bbc88a428') in 0.021160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_100.mat
+  artifactKey: Guid(a4a40e7c355f38a4881ec26872523781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_100.mat using Guid(a4a40e7c355f38a4881ec26872523781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3ae3b6c309fed0598754f9d462c5a0') in 0.029145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Street.008.mat
+  artifactKey: Guid(58eb9a48986124d4cb11c696feb43f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Street.008.mat using Guid(58eb9a48986124d4cb11c696feb43f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09b427bef7ee109be7589c58b67b1e1') in 0.022104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic light texture.mat
+  artifactKey: Guid(2104027ea816d0f4fa469af3a5d85253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic light texture.mat using Guid(2104027ea816d0f4fa469af3a5d85253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad88bdbcf1f1302e710ab964d7b8c8b') in 0.035085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 14.mat
+  artifactKey: Guid(cfe19b994291bef4da4b615db64ccdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 14.mat using Guid(cfe19b994291bef4da4b615db64ccdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b355422f61fd209a1eca615615eb613') in 0.030415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 11.mat
+  artifactKey: Guid(6ccb05ecd9cd79b4fbc6cf7019198d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 11.mat using Guid(6ccb05ecd9cd79b4fbc6cf7019198d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe1685e0cc3759b30318d492d0d7279') in 0.028542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_stop.mat
+  artifactKey: Guid(1b7ac0ad5309d3c4e9738cd5ee1977d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_stop.mat using Guid(1b7ac0ad5309d3c4e9738cd5ee1977d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a18efcdbfab86e69475bf84c5eadd5') in 0.026743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic light main.002.mat
+  artifactKey: Guid(0ab10a22e8c734f43a3b0be650c89785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic light main.002.mat using Guid(0ab10a22e8c734f43a3b0be650c89785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1762665b25719abe6067638d0d66e400') in 0.019905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_10.mat
+  artifactKey: Guid(61cea1addb183bb4e8d982811f186a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_10.mat using Guid(61cea1addb183bb4e8d982811f186a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8447b8de2cf7b245e16909089078ebd') in 0.033112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic obj.mat
+  artifactKey: Guid(fdfdbc0bd1d961d489064e5adb71ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/traffic obj.mat using Guid(fdfdbc0bd1d961d489064e5adb71ddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27de7babdc8376e9529dab825d33efe') in 0.021408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_slow.mat
+  artifactKey: Guid(375db1c03c0a2594185895a66be6ce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_slow.mat using Guid(375db1c03c0a2594185895a66be6ce0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d46f53bc3ab2a5ebd8d991bab507964') in 0.028083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_parking.mat
+  artifactKey: Guid(9b60638852f2e1c46a28db8be414a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_parking.mat using Guid(9b60638852f2e1c46a28db8be414a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eebf2212c18f874b2aafc5fb70d826') in 0.020070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/StreetSellerStand AD.mat
+  artifactKey: Guid(a772bcb58f8935449a3219ec0e4bffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/StreetSellerStand AD.mat using Guid(a772bcb58f8935449a3219ec0e4bffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665cc473236959abdb2ae02b3b312da3') in 0.032193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Street.007.mat
+  artifactKey: Guid(b9c714ec096bf5342bc3aba0b58e502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Materials/Street.007.mat using Guid(b9c714ec096bf5342bc3aba0b58e502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc076fe8f65254b3a20af47f0987af3') in 0.020842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_ 70.mat
+  artifactKey: Guid(d22294ef304578243b15ec1189c98625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_speed_ 70.mat using Guid(d22294ef304578243b15ec1189c98625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113fc2f13b513f4e93f371aa729125b') in 0.024876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.197236 seconds.
+  path: Assets/POLYGON city pack/Materials/color_windows/Windows light 2.mat
+  artifactKey: Guid(763d547f29cebc443a26da20545010dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/color_windows/Windows light 2.mat using Guid(763d547f29cebc443a26da20545010dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2faa396acabfdf5d4d55eed28dace3d') in 0.021043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Windows 1.mat
+  artifactKey: Guid(63f5b0a84c164de42b768e9c5bedaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Windows 1.mat using Guid(63f5b0a84c164de42b768e9c5bedaa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27baea59b43f586a5945eca07c7bae74') in 0.022102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/windows 2.mat
+  artifactKey: Guid(eadcd8d8f1590a54b8d8a391b067e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/windows 2.mat using Guid(eadcd8d8f1590a54b8d8a391b067e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675185941b970db97d7814116791a38f') in 0.019887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/tree leaf.mat
+  artifactKey: Guid(45aa121491da72e4b8c0fcdb4533272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/tree leaf.mat using Guid(45aa121491da72e4b8c0fcdb4533272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369e85fb193de3db366b05600c78116') in 0.027338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.801668 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 9.mat
+  artifactKey: Guid(44e6f6a31667a0c46a4d3741b5e879d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 9.mat using Guid(44e6f6a31667a0c46a4d3741b5e879d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a72fc7fa9904f377c68c5cefb3ed15') in 0.026585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 2.mat
+  artifactKey: Guid(af0582a2d4252d44e947c6cffcd45186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 2.mat using Guid(af0582a2d4252d44e947c6cffcd45186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba505d91122c0dafcbf8024400fbc6a') in 0.027259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/stop_sign.mat
+  artifactKey: Guid(86400b15e18ecf944b0bad0705a22883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials/stop_sign.mat using Guid(86400b15e18ecf944b0bad0705a22883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f9ac7c33552586ad8a3ab087dcf0a2') in 0.019304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 7.mat
+  artifactKey: Guid(b991b79651d0c31409fa826ebb42f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 7.mat using Guid(b991b79651d0c31409fa826ebb42f3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a853a5d9db825a22e9a73496d9535807') in 0.027556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 6.mat
+  artifactKey: Guid(be8e1d853d066054791a5c07f41a04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 6.mat using Guid(be8e1d853d066054791a5c07f41a04ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e49c0c425236bbee7fe2a8f37bfec23') in 0.026844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/street 5.mat
+  artifactKey: Guid(55f55d8f998363c4d91b7b94cb5a37ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/street 5.mat using Guid(55f55d8f998363c4d91b7b94cb5a37ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59ccff1164c1d0af61c9a790ee70c22') in 0.028722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304644 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Sign_traffic 3.mat
+  artifactKey: Guid(6de6fe3ba14a14848a5014692825ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Sign_traffic 3.mat using Guid(6de6fe3ba14a14848a5014692825ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b537669f6a15905a2a7732be4ad13a34') in 0.021767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139893 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Metal.mat
+  artifactKey: Guid(e9f7fc8ebd073f141863d04d3d79f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Metal.mat using Guid(e9f7fc8ebd073f141863d04d3d79f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d3d11a91d5561eb6122e684202759a') in 0.019571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.012.mat
+  artifactKey: Guid(e52f3fca3932ca14fb4bd29705f49aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.012.mat using Guid(e52f3fca3932ca14fb4bd29705f49aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30b9ee966472e3a3f4dc59415678ab') in 0.022001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.016.mat
+  artifactKey: Guid(6b202c0eb52218642a907c98d38ec954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.016.mat using Guid(6b202c0eb52218642a907c98d38ec954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86cd77f08301a4144e183cbe56d1961') in 0.021297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Material.004.mat
+  artifactKey: Guid(7606dd6447d4d7e41bdf2d8cd3eefd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Material.004.mat using Guid(7606dd6447d4d7e41bdf2d8cd3eefd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd4f55a26d6cf161974e4402ed14b7e') in 0.021310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.018.mat
+  artifactKey: Guid(eba715dc78bb41e43be907196b991995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.018.mat using Guid(eba715dc78bb41e43be907196b991995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8515158bcc2bf48ea58164e0a5cfcf09') in 0.022879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.004.mat
+  artifactKey: Guid(ceb4381d5b48ddb47b11f68d0782a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.004.mat using Guid(ceb4381d5b48ddb47b11f68d0782a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07decfd2d9521a4d8b85e1a5d210bafe') in 0.011055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.004.mat
+  artifactKey: Guid(4e882d15ddb40484e92bd2019384046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/lamps fbx/Materials/Material.004.mat using Guid(4e882d15ddb40484e92bd2019384046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8677404b3d19903e0942b5eabb1581a4') in 0.011160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.001.mat
+  artifactKey: Guid(21a2b8d40fa4ac845858ebe59fce2b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.001.mat using Guid(21a2b8d40fa4ac845858ebe59fce2b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12ccaa8e8d620eb5262e39e4d4c038f') in 0.021840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.002.mat
+  artifactKey: Guid(e919ae06ef4671b4298aac86d01441c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Material.002.mat using Guid(e919ae06ef4671b4298aac86d01441c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e7ea133365c4df18bcd533521d8eb7') in 0.019050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/K7.mat
+  artifactKey: Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/K7.mat using Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a762ebceb0e27363ac863652b2b24245') in 0.015860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/i4.mat
+  artifactKey: Guid(c2cd0d24c1534964ea6cfaeb51f2b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/i4.mat using Guid(c2cd0d24c1534964ea6cfaeb51f2b9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6c1a63a5ae067b337fe85823a757c') in 0.028533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Info_sign_01.mat
+  artifactKey: Guid(b48635d2150e72b4b9122f09693e27a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Info_sign_01.mat using Guid(b48635d2150e72b4b9122f09693e27a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b73e79591aaef087ddd4402586333e') in 0.019721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 1 a.002.mat
+  artifactKey: Guid(00ce394a25dd83145ba807b6cb9600ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 1 a.002.mat using Guid(00ce394a25dd83145ba807b6cb9600ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0da76eb43ab4a5d06b7e140dce9baf') in 0.020135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON city pack/Materials/traffic light/Green lighting.mat
+  artifactKey: Guid(510f1a4c405d15b44836b4cd601a8d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/traffic light/Green lighting.mat using Guid(510f1a4c405d15b44836b4cd601a8d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153b7cec72725fb7f15e3a581b049c18') in 0.020181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass cola.mat
+  artifactKey: Guid(f31589759bf65b74688d85560b384608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass cola.mat using Guid(f31589759bf65b74688d85560b384608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eff2adf7d7029fbfbca4a05fd52e1c') in 0.026843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/facade.mat
+  artifactKey: Guid(ad1439e275bb08049a9645ca175263fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/facade.mat using Guid(ad1439e275bb08049a9645ca175263fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e273139ae037644b281ed1cecde0ff6b') in 0.021710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Facade1.mat
+  artifactKey: Guid(829d9cf9a914aa348a239d27492d2b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Facade1.mat using Guid(829d9cf9a914aa348a239d27492d2b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4d547dfe6a7610da1442dfd12b3a86') in 0.019449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass coke.mat
+  artifactKey: Guid(23c2eb0032c7b9c419ea560119ad5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass coke.mat using Guid(23c2eb0032c7b9c419ea560119ad5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d44f23be1f345ad35d3cbf54a98ee2') in 0.018977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/glass.mat
+  artifactKey: Guid(90e58d4b45e208b43bb32d978ad328d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/glass.mat using Guid(90e58d4b45e208b43bb32d978ad328d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861077f683538a5df4fb5b76abb0440c') in 0.021645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/doori.mat
+  artifactKey: Guid(a51a43c0f1c7cb348b39459ec30f480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/doori.mat using Guid(a51a43c0f1c7cb348b39459ec30f480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db90e588bfd934c93a1a40ab301fc9b') in 0.020551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Garage.mat
+  artifactKey: Guid(06bd016d13b140448965859827e28a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Garage.mat using Guid(06bd016d13b140448965859827e28a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c56387ac5ea5b2af310a86545fcdf53') in 0.020305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Grid.mat
+  artifactKey: Guid(f2f02f2d34418854d80798cb0fa82bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Grid.mat using Guid(f2f02f2d34418854d80798cb0fa82bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a4f24ab058ce02740bda3c4584fb39') in 0.029291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/drain 1.mat
+  artifactKey: Guid(189e04874afa8ee4abde0a253fda9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/drain 1.mat using Guid(189e04874afa8ee4abde0a253fda9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5583cd0a1c03b21eb4d1a7b072fbe5b7') in 0.023329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/C1.mat
+  artifactKey: Guid(b46491bf8bcc7974e9c5b185ed3a64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/C1.mat using Guid(b46491bf8bcc7974e9c5b185ed3a64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc02b31d67977e2a313db0acc4cb87') in 0.020423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/anger stone 2.mat
+  artifactKey: Guid(5e66ca8df67043744a0d5a72b8229bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/anger stone 2.mat using Guid(5e66ca8df67043744a0d5a72b8229bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407cfc81e8760c2bd9135169e08f50fa') in 0.020975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/D3.mat
+  artifactKey: Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/D3.mat using Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718bdbdf01442fffdb8abdf445c58497') in 0.024343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Grass.mat
+  artifactKey: Guid(cf541363ff7987b49909c09eeb42ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Grass.mat using Guid(cf541363ff7987b49909c09eeb42ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3e3523c66edcbbb13bd3e7fda0951b') in 0.019612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Glass.mat
+  artifactKey: Guid(28048d114c6803248a3c46e2207e3b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Glass.mat using Guid(28048d114c6803248a3c46e2207e3b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58155fb488c289833966cd2681fd3a77') in 0.023923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/grey.mat
+  artifactKey: Guid(8b5068e7175f90b43828f9c956243277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/grey.mat using Guid(8b5068e7175f90b43828f9c956243277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9deda7b921d55670dc16e61ac9f2954') in 0.018361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Facade.mat
+  artifactKey: Guid(141bde82e16e07b4888cde3a9d83b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Facade.mat using Guid(141bde82e16e07b4888cde3a9d83b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118e240523738a4e4762ff8dc16f212e') in 0.019873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door1.mat
+  artifactKey: Guid(c10add0f71943cb46ba4ff462bb0b24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door1.mat using Guid(c10add0f71943cb46ba4ff462bb0b24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeb430028b6afb24a9415bfbe2558de') in 0.021081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door 1.mat
+  artifactKey: Guid(352c1b776e0e0224b836e11b11a31661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door 1.mat using Guid(352c1b776e0e0224b836e11b11a31661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c785a129554fe4d7f2514923ec831d36') in 0.020336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Hydrant.mat
+  artifactKey: Guid(84656e979de647d48a1dffd409494192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Hydrant.mat using Guid(84656e979de647d48a1dffd409494192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4217f309db8645479cbd4a7dd7d155da') in 0.027960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/Hotdog.mat
+  artifactKey: Guid(bd9bec7cf2974734483242b0897728e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/Hotdog.mat using Guid(bd9bec7cf2974734483242b0897728e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8791282aec9b084ba415ce97a4df92a2') in 0.025686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 1 a.001.mat
+  artifactKey: Guid(2cf284bdae2eb9043886eb2aa7209709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light 1 a.001.mat using Guid(2cf284bdae2eb9043886eb2aa7209709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4455e628432ae6ee594b1b4d85db58') in 0.022802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Blue.mat
+  artifactKey: Guid(82da9dd8eb8243145b9284b853d232b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Blue.mat using Guid(82da9dd8eb8243145b9284b853d232b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcec2fcc7e959e323eaae389a081319') in 0.021317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/facade 2.mat
+  artifactKey: Guid(09ebc925de7df4a4bbc782f4c70eac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/facade 2.mat using Guid(09ebc925de7df4a4bbc782f4c70eac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46464f9c0ac4643657a0804b23643b55') in 0.020672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/grid.mat
+  artifactKey: Guid(70f7280aa61c5af4f9c757fd5a0d98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/grid.mat using Guid(70f7280aa61c5af4f9c757fd5a0d98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a9bedac77964407ccc11b40954fd78') in 0.011253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/I1.mat
+  artifactKey: Guid(09bb7389d12b7fe4cb01b4d2afb6b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/I1.mat using Guid(09bb7389d12b7fe4cb01b4d2afb6b0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabcd8d9aed63e74f683af75f49141da') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/C2.mat
+  artifactKey: Guid(0510da7b3809d94478e8a6a4f562366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/C2.mat using Guid(0510da7b3809d94478e8a6a4f562366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6803a91800610d906b67e0f8e29a5339') in 0.019828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/ATM texture.mat
+  artifactKey: Guid(080610dfd028a5b47bd2deadb789ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/ATM texture.mat using Guid(080610dfd028a5b47bd2deadb789ebac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cab0630ed8ab77eb0959fe154d5573') in 0.019023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Customizable Skybox/Materials/dark trunk.mat
+  artifactKey: Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Materials/dark trunk.mat using Guid(7c7f7e923f30d8b4193dfc9a7eb33ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea72f1627c1e206b1aafa90ca4ab3a') in 0.015468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/dirt walkWay.mat
+  artifactKey: Guid(a6eaccbb2fcd42a44ae956659d71890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/dirt walkWay.mat using Guid(a6eaccbb2fcd42a44ae956659d71890a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4451e69b01ae0701ab18d679042468') in 0.028981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door 3.mat
+  artifactKey: Guid(bc947884e5bc4ed43a8047993c5b542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/door 3.mat using Guid(bc947884e5bc4ed43a8047993c5b542c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936793885cf9f058e8ff580801a9d83f') in 0.023169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kenney/Kenney Character Assets/Skins/Materials/criminalMaleA.mat
+  artifactKey: Guid(5cac3074802bc294bbd472ca56dc1060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenney/Kenney Character Assets/Skins/Materials/criminalMaleA.mat using Guid(5cac3074802bc294bbd472ca56dc1060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19baf9c7f30233f700b7038268d3120') in 0.016192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/G3.mat
+  artifactKey: Guid(ed6309fcf2465f8459ee0d575167c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/G3.mat using Guid(ed6309fcf2465f8459ee0d575167c0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d036d1145071a758f86798f11185553') in 0.013522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Grass.mat
+  artifactKey: Guid(90d9d8f92112a334b88d846522814ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Grass.mat using Guid(90d9d8f92112a334b88d846522814ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c38ced7c024ab383f38254f3613026') in 0.017591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_frames.mat
+  artifactKey: Guid(81949c9f4bdb16f499ce0fc5e8c1f597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Door_frames.mat using Guid(81949c9f4bdb16f499ce0fc5e8c1f597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb23601d897748c7c223b25cd68b36c6') in 0.021538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/Material.003.mat
+  artifactKey: Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Customizable Skybox/Model/Materials/Material.003.mat using Guid(0b82edc333f454f4fab3b93e8ececd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eef87658be0069bbee9fdadd9e8ccad') in 0.012601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Hostpital.mat
+  artifactKey: Guid(ceccdafd59fbf034689c44c17b7e7b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Hostpital.mat using Guid(ceccdafd59fbf034689c44c17b7e7b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551e0f71692ff1f7e0599eec4a5d8bd7') in 0.019462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/k5.mat
+  artifactKey: Guid(e495abf6588a1b944a3620fd1fee2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/k5.mat using Guid(e495abf6588a1b944a3620fd1fee2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a8c5ec9b08b731d7d1edd5197972ee') in 0.015923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Grid_texture.mat
+  artifactKey: Guid(928b61234d75021409b88eb67c742fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Materials/Grid_texture.mat using Guid(928b61234d75021409b88eb67c742fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c52e1b1780be7e02d1a68061bbb832') in 0.020817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light.mat
+  artifactKey: Guid(d3841d7a81a2f7d4dbd89b0bb003f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/light.mat using Guid(d3841d7a81a2f7d4dbd89b0bb003f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763ff888a551e251e35303db51142cd1') in 0.026593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Box.mat
+  artifactKey: Guid(fa932ef23504a6849b3c5eaca9a68738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Box.mat using Guid(fa932ef23504a6849b3c5eaca9a68738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32204e826be78253ebc7c16fdad6edef') in 0.011164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYGON city pack/Materials/Colors_buildings/F3.mat
+  artifactKey: Guid(2d6209e982156604ea6d7c513bc7b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Colors_buildings/F3.mat using Guid(2d6209e982156604ea6d7c513bc7b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a73b030b92f9fbaaa2d11baeb937f1') in 0.019793 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     public GameObject dropedHeal;
     public GameObject dropedAmmo;
     public Slider HB;
-
+    protected bool pause;
 
     public virtual void Move() //Враг может как-то двигаться
     {
@@ -63,12 +63,17 @@ public class Enemy : MonoBehaviour
     
     private void Update() //Если враг не мертв, он двигается и атакует
     {
-        
+        pause = player.GetComponent<PlayerController>().GetPause();
         if (!dead)
         {
-           
+           if (pause == false){
             Move();
             Attack();
+           }
+           else {
+                GetComponent<Animator>().SetBool("PlayerNear", true);
+           }
+            
         }
         HB.value = health;
     }

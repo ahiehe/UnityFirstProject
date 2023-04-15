@@ -16,23 +16,17 @@ public class Goblin : Enemy
     protected float cooldownForAnim = 0.12f;
    
     bool PlayerNear;
-    protected bool pause;
 
-    protected int speed = 6;
+
+
 
     public override void Move()
     {
-        pause = player.GetComponent<PlayerController>().GetPause();
-        if (pause == false) 
-        {
-            GetComponent<Animator>().SetBool("PlayerNear", true);
-            transform.LookAt(player.transform);
-            GetComponent<CharacterController>().Move(speed * transform.forward * Time.deltaTime);
-        }
-        else 
-        {
+
             GetComponent<Animator>().SetBool("PlayerNear", false);
-        }
+            transform.LookAt(player.transform);
+            GetComponent<CharacterController>().Move(6 * transform.forward * Time.deltaTime);
+ 
     }
 
     public override void Attack()

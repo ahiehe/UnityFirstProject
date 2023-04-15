@@ -12,9 +12,24 @@ public class Menu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1); //указываем номер сцены для загрузки
+        SceneManager.LoadScene(1);
     }
-    
+    public void RetryGame()
+    {
+        Promejutok.wave = 1;
+        PlayerPrefs.SetInt("health", 100);
+        PlayerPrefs.SetInt("coins", 0);
+
+        PlayerPrefs.SetInt("pistolAmmo",30);
+        PlayerPrefs.SetInt("shotgunAmmo", 48);
+        PlayerPrefs.SetInt("rifleAmmo", 90);
+
+        PlayerPrefs.SetInt("pistolAmmoC",10);
+        PlayerPrefs.SetInt("shotgunAmmoC", 16);
+        PlayerPrefs.SetInt("rifleAmmoC", 30);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(0); 
+    }
     public void SaveAmmoAndHP()
     {
         int health = player.GetComponent<PlayerController>().GetHealth();

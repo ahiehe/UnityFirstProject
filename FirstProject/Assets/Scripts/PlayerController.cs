@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
         {
             GetComponent<PlayerLook>().enabled = false;
             Cursor.lockState = CursorLockMode.None;
+            GetComponent<PlayerMove>().enabled = false;           
+            InGameUI.SetActive(false);
             gameOver.SetActive(true);
         }
         
@@ -146,6 +148,14 @@ public class PlayerController : MonoBehaviour
                 
             }
             GetComponent<Switch>().AmmoUpdate();
+        }
+        if (collider.tag == "Water") 
+        {
+            GetComponent<PlayerLook>().enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            GetComponent<PlayerMove>().enabled = false;           
+            InGameUI.SetActive(false);
+            gameOver.SetActive(true);
         }
     }
 }

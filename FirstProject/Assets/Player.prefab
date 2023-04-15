@@ -697,7 +697,12 @@ MonoBehaviour:
   shotgun: {fileID: 3385809714477187344}
   rifle: {fileID: 3385809714187491464}
   knife: {fileID: 3385809714806680652}
-  AmmoText: {fileID: 0}
+  pistolUI: {fileID: 0}
+  shotgunUI: {fileID: 0}
+  rifleUI: {fileID: 0}
+  PistolAmmoText: {fileID: 0}
+  ShotgunAmmoText: {fileID: 0}
+  RifleAmmoText: {fileID: 0}
   weapon: 0
 --- !u!1 &3385809714233390140
 GameObject:
@@ -3015,15 +3020,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
       propertyPath: m_Size.x
-      value: 100
+      value: 0.076629706
       objectReference: {fileID: 0}
     - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
       propertyPath: m_Size.y
-      value: 100
+      value: 0.10745112
       objectReference: {fileID: 0}
     - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
       propertyPath: m_Size.z
-      value: 10
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
+      propertyPath: m_Center.x
+      value: -0.00071310205
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
+      propertyPath: m_Center.y
+      value: 0.050030418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
+      propertyPath: m_Center.z
+      value: 3.117069e-12
       objectReference: {fileID: 0}
     - target: {fileID: 4658921761264430341, guid: 25ccb0d7bae40c744babac64d22d9fcb, type: 3}
       propertyPath: m_IsTrigger

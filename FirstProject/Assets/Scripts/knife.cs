@@ -17,7 +17,7 @@ public class knife : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Enemy") other.GetComponent<Enemy>().EnemyChangeHealth(-120);   
+        if (other.tag == "Enemy") other.GetComponent<Enemy>().EnemyChangeHealth(-50);   
             
     }
 

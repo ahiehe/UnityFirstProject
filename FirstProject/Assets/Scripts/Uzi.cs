@@ -13,7 +13,7 @@ public class Uzi : Enemy
     
 
     bool PlayerNear;
-    bool pause;
+
     float timer = 0;
     float cooldown = 0.5f;
     void start(){
@@ -30,27 +30,23 @@ public class Uzi : Enemy
 
     public override void Attack()
     {
+
+        
         switch (fire)
         {
         case Firing.Wait:
-            pause = player.GetComponent<PlayerController>().GetPause();
-            if (pause == false) 
-            {
                 GetComponent<Animator>().SetBool("PlayerNear", false);
                 transform.LookAt(player.transform);
                 GetComponent<CharacterController>().Move(2 * transform.forward * Time.deltaTime * 2);
-            }
-            else 
-            {
-                GetComponent<Animator>().SetBool("PlayerNear", true);
-            }
+                if (Vector3.Distance(transform.position, player.transform.position) < area)
+                {
+                    GetComponent<Animator>().SetBool("PlayerNear", true);
+                    timer = 0;
+                    fire = Firing.Prepare;
+                }
+            
 
-            if (Vector3.Distance(transform.position, player.transform.position) < area)
-            {
-                GetComponent<Animator>().SetBool("PlayerNear", true);
-                timer = 0;
-                fire = Firing.Prepare;
-            }
+            
             break;
         case Firing.Prepare:
             transform.LookAt(player.transform);
@@ -77,5 +73,6 @@ public class Uzi : Enemy
             fire = Firing.Wait;
             break;
         }
+        
     }
 }

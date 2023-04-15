@@ -88,18 +88,6 @@ public class PlayerMove : MonoBehaviour
         controller.Move(direction * Time.deltaTime);
     }
     
-    private void OnTriggerEnter(Collider other)
-    {        
-        
-
-        if (other.tag == "Water") 
-        {
-            GameOver.SetActive(true);  
-            GetComponent<PlayerLook>().enabled = false;
-            Cursor.lockState = CursorLockMode.None;     
-        }
-
-    }
     
     private void isRunning(){
         

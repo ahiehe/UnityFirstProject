@@ -14,31 +14,25 @@ public class BigZombie : Enemy
     protected float timerForAnim = 0;
     protected float cooldown = 2f;
     protected float cooldownForAnim = 0.24f;
-   
+    public int speed = 3;
+    public int rangeOfAttack = 12;
     bool PlayerNear;
-    protected bool pause;
 
-    protected int speed = 3;
 
     public override void Move()
     {
-        pause = player.GetComponent<PlayerController>().GetPause();
-        if (pause == false) 
-        {
-            GetComponent<Animator>().SetBool("PlayerNear", true);
+   
+
+            GetComponent<Animator>().SetBool("PlayerNear", false);
             transform.LookAt(player.transform);
             GetComponent<CharacterController>().Move(speed * transform.forward * Time.deltaTime);
-        }
-        else 
-        {
-            GetComponent<Animator>().SetBool("PlayerNear", false);
-        }
+
     }
 
     public override void Attack()
     {
         
-        if (Vector3.Distance(transform.position, player.transform.position) < 12) 
+        if (Vector3.Distance(transform.position, player.transform.position) < rangeOfAttack) 
         {   
             timer += Time.deltaTime;
             if (timer > cooldown)
