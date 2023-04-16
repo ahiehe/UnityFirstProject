@@ -140,7 +140,7 @@ public class PlayerController : MonoBehaviour
 
             }
             if (shotgun.activeSelf){
-                shotgun.GetComponent<Gun>().UppAmmo(16);
+                shotgun.GetComponent<Gun>().UppAmmo(4);
 
             }
             if (rifle.activeSelf){

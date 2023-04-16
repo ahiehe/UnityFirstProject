@@ -144,7 +144,7 @@ public class Switch : MonoBehaviour
                     AmmoUpdate();
                     break;
                 case Weapon.Shotgun:
-                    shotgun.GetComponent<Gun>().UppAmmo(16);
+                    shotgun.GetComponent<Gun>().UppAmmo(2);
                     AmmoUpdate();
                     break;
                 case Weapon.Rifle:

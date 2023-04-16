@@ -14,7 +14,7 @@ public class Pistol : Gun
         ammoPerShoot = 1;
         if (PlayerPrefs.HasKey("pistolAmmo"))
         {
-            AmmoEvery = PlayerPrefs.GetInt("pistolAmmo")+15;
+            AmmoEvery = PlayerPrefs.GetInt("pistolAmmo");
             AmmoCurrent= PlayerPrefs.GetInt("pistolAmmoC");
         } 
         else

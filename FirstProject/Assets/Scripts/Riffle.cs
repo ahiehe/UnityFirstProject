@@ -16,7 +16,7 @@ public class Riffle : Gun
         ammoPerShoot = 1;
         if (PlayerPrefs.HasKey("rifleAmmo"))
         {
-            AmmoEvery  = PlayerPrefs.GetInt("rifleAmmo") + 30;
+            AmmoEvery  = PlayerPrefs.GetInt("rifleAmmo");
             AmmoCurrent= PlayerPrefs.GetInt("rifleAmmoC");
         } 
         else

@@ -10,17 +10,17 @@ public class Shotgun : Gun
         cooldown = 2;        
         auto = true;
         
-        AmmoPerMagazin  = 16;
-        ammoPerShoot = 8;
+        AmmoPerMagazin  = 4;
+        ammoPerShoot = 2;
         if (PlayerPrefs.HasKey("shotgunAmmo"))
         {
-            AmmoEvery  = PlayerPrefs.GetInt("shotgunAmmo") + 32;
+            AmmoEvery  = PlayerPrefs.GetInt("shotgunAmmo");
             AmmoCurrent = PlayerPrefs.GetInt("shotgunAmmoC");
         } 
         else
         {
-            AmmoEvery = 80;
-            AmmoCurrent= 16;
+            AmmoEvery = 12;
+            AmmoCurrent= 4;
         }
     }
     protected override void OnShoot()

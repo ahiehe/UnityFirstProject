@@ -21,11 +21,11 @@ public class Menu : MonoBehaviour
         PlayerPrefs.SetInt("coins", 0);
 
         PlayerPrefs.SetInt("pistolAmmo",30);
-        PlayerPrefs.SetInt("shotgunAmmo", 48);
+        PlayerPrefs.SetInt("shotgunAmmo", 12);
         PlayerPrefs.SetInt("rifleAmmo", 90);
 
         PlayerPrefs.SetInt("pistolAmmoC",10);
-        PlayerPrefs.SetInt("shotgunAmmoC", 16);
+        PlayerPrefs.SetInt("shotgunAmmoC", 4);
         PlayerPrefs.SetInt("rifleAmmoC", 30);
         PlayerPrefs.Save();
         SceneManager.LoadScene(0); 
